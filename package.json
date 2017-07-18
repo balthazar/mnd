@@ -5,7 +5,8 @@
     "start": "node -r babel-register -r babel-polyfill -r ignore-styles src/server",
     "lint": "eslint src webpack bin",
     "build": "rm -rf dist && NODE_ENV=production webpack --progress --hide-modules --config webpack/build.babel.js",
-    "prod": "NODE_ENV=production npm start"
+    "prod": "NODE_ENV=production npm start",
+    "deploy": "pm2 deploy ecosystem.json production"
   },
   "dependencies": {
     "compression": "^1.6.2",

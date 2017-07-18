@@ -1,0 +1,24 @@
+{
+  "apps": [{
+
+    "name": "mnd",
+    "script": "npm",
+    "args": "start",
+
+    "env_production": {
+      NODE_ENV: "production"
+    }
+
+  }],
+
+  "deploy": {
+    "production": {
+      "user"       : "me",
+      "host"       : "198.27.65.108",
+      "ref"        : "origin/master",
+      "repo"       : "git@github.com:Apercu/mnd.git",
+      "path"       : "/var/www/mnd",
+      "post-deploy": "yarn && npm run build && pm2 startOrRestart ecosystem.json --env production"
+    }
+  }
+}
