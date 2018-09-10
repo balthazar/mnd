@@ -63,28 +63,29 @@ class Work extends Component {
       <div>
         <Header />
 
-        {selected !== null && (
-          <Lightbox
-            mainSrc={`/assets/${id}/${work.images[selected].url}`}
-            nextSrc={`/assets/${id}/${work.images[(selected + 1) % work.images.length].url}`}
-            prevSrc={`/assets/${id}/${
-              work.images[(selected + work.images.length - 1) % work.images.length].url
-            }`}
-            imageCaption={work.images[selected].text}
-            imagePadding={110}
-            onCloseRequest={() => this.setState({ selected: null })}
-            onMovePrevRequest={() =>
-              this.setState({
-                selected: (selected + work.images.length - 1) % work.images.length,
-              })
-            }
-            onMoveNextRequest={() =>
-              this.setState({
-                selected: (selected + 1) % work.images.length,
-              })
-            }
-          />
-        )}
+        {typeof window !== 'undefined' &&
+          selected !== null && (
+            <Lightbox
+              mainSrc={`/assets/${id}/${work.images[selected].url}`}
+              nextSrc={`/assets/${id}/${work.images[(selected + 1) % work.images.length].url}`}
+              prevSrc={`/assets/${id}/${
+                work.images[(selected + work.images.length - 1) % work.images.length].url
+              }`}
+              imageCaption={work.images[selected].text}
+              imagePadding={110}
+              onCloseRequest={() => this.setState({ selected: null })}
+              onMovePrevRequest={() =>
+                this.setState({
+                  selected: (selected + work.images.length - 1) % work.images.length,
+                })
+              }
+              onMoveNextRequest={() =>
+                this.setState({
+                  selected: (selected + 1) % work.images.length,
+                })
+              }
+            />
+          )}
 
         <Content>
           <h2>
