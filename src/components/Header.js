@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import { connect } from 'react-redux'
 
 const Container = styled.div`
   position: absolute;
@@ -35,7 +34,6 @@ const Container = styled.div`
   }
 `
 
-@connect(({ router: { location: { pathname } } }) => ({ pathname }))
 class Header extends Component {
   render() {
     const { pathname } = this.props
