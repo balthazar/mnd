@@ -25,6 +25,16 @@ injectGlobal`
     font-size: 13px;
   }
 
+  h3 {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  h4 {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
   @keyframes closeWindow {
     0% {
       opacity: 1;

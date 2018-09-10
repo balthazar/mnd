@@ -470,22 +470,103 @@ const works = {
     date: '2002 / ...',
     text: (
       <div>
-        Dans le thème récurrent du portrait photographique, Marie-Noëlle DÉCORET choisit des
-        personnes qui ont une déficience visuelle : elle saisit ses modèles au travers d’une
-        lentille correspondant à la correction optique de chacun et rapportée sur l’objectif au
-        moment de la prise de vue.
+        <h3>Les Portraits réfléchis, une esthétique de la rupture.</h3>
+        <br />
+        « Tout ce qui est, écrit Gerhard Richter, est invisible parce que nous percevons l’apparence
+        qui en est le reflet. Rien d’autre n’est visible ». L’apparence – ce qui apparaît comme une
+        trace ou comme une ombre, ce qui feint d’être, illusion de la vision – est l’un des thèmes
+        qui relient entre elles les œuvres de Marie-Noëlle Décoret, quel qu’en soit le médium ou le
+        sujet. L’intérêt que porte l’artiste à l’invisible que la lumière révèle ou encore à cette
+        part du réel que le cadrage élimine, contraint l’image à ses deux termes, apparition et
+        disparition, un jeu qu’imposent la distance et le temps. Les onze portraits réalisés pour le
+        Pôle Optique à Saint-Étienne, renouvellent cette critique des apparences, défient toute
+        normalité perceptive au moyen d’un geste artistique transgressif : une photographie prise
+        selon la déficience visuelle de chacun des modèles au moyen d’un verre, spécialement conçu
+        d’après sa correction optique, et rapporté sur l’objectif. Les personnes ainsi
+        photographiées perdent leurs contours, parfois au seuil de l’effacement ou de la tache.
+        Cette mise à distance de l’objet impose une littéralité d’un ordre nouveau, non pas une vue
+        défaillante, ni même une erreur technique, mais une réalité intrinsèque à celle plus
+        normative. Ce sont donc autant les conventions du portrait, la définition de l’image
+        photographique que le statut du flou que ces Portraits réfléchis ou Portraits au verre
+        remettent en question.
         <br />
         <br />
-        Les sujets ainsi mis à nu, sans lunettes, et à l’objectif porteur d’un verre réalisé selon
-        leur propre particularité deviennent les miroirs déformés de leur perception.
+        <h4>Des portraits à rebours</h4>
+        <br />
+        Dès ses débuts, ce qui définit la photographie fut sa capacité à restituer l’image des êtres
+        et des choses. La nature mécanique du dispositif séduisit par son apparente neutralité
+        permettant de fixer le reflet authentique, l’image véritable du sujet. La netteté et la
+        précision ont dès lors, été considérées comme les qualités élémentaires du médium. Au cours
+        du XXe siècle, les artistes photographes ont non seulement remis en cause sa prétendue
+        neutralité, mais aussi ont montré que la photographie était un processus. En ce sens, la
+        photographie n’est pas seulement un reflet des objets, c’est une reconstruction de la
+        réalité, un rapport dialogique entre les choses, la composition et l’esthétique, ainsi que
+        l’a précisé André Rouillé. La réalité ne se réduit donc pas au visible et c’est sur ce point
+        que quantité de photographes ont échoué – notamment en matière de portraits – convaincus que
+        ce médium œuvrant sans artifice, leur permettrait de révéler la nature intime de leur sujet.
+        Or, ce qui a souvent piégé le portrait photographique c’est que le sujet n’est plus qu’un
+        modèle de ressemblance. La question du portrait, quel que soit d’ailleurs le médium utilisé,
+        tourne autour d’une difficulté précise qui est celle de l’identité, un enjeu que les
+        Portraits réfléchis de Marie-Noëlle Décoret relèvent en désignant non pas la ressemblance,
+        mais la différence. Selon le philosophe Jean-Marie Pontévia, ce qui fait la qualité d’un
+        portrait, c’est « l’imitation de l’inimitable : autrement dit la ressemblance ne peut se
+        donner à lire que comme différence ». Dans l’œuvre de Marie-Noëlle Décoret, le portrait
+        n’est pas un sujet en soi, il s’inscrit dans un processus qui interroge la façon dont la
+        réalité est vue. Ce sont des portraits « à rebours » dans lesquels l’artiste détourne la
+        vocation du genre et relativise la relation entre photographie et souvenir. Ils ne
+        signifient ni l’absence, ni le souvenir, ni même un « contre-souvenir » selon la pensée de
+        Barthes, car « l’objet » photographié n’a qu’une existence minimale par sa ténuité, par la
+        disparition de sa carnation. L’œil est ici prééminent parce que c’est lui qui engloutit les
+        formes, estompe leurs contours, ne laissant du réel que sa trace évanescente ; un évidement
+        référentiel qui fait du portrait, l’incarnation visuelle de la photographie.
         <br />
         <br />
-        Ces <em>Portraits réfléchis</em> sont la transcription du parcours de la chambre de l’œil à
-        celui de la chambre obscure. Ils déclinent une spécificité, sont une correspondance de
-        points de vue et deviennent l’écran réfléchissant d’un entre-deux où se télescopent deux
-        perceptions mises en abyme.
+        <h4>La vision mise en scène</h4>
+        <br />
+        La lisibilité des traces intègre un système de sens auquel nous conduit la marge
+        d’illisible. Ainsi, le flou ne suggère pas une image plus claire ou plus précise, le flou
+        est ici ce que l’artiste nous donne à voir. En tant qu’images troubles, les clichés de
+        l’artiste pourraient être qualifiés de « non-photographiques » en raison des fantasmes qu’a
+        engendrés la photographie comme lieu de crise de l’image, ce rapport conflictuel entre le
+        réel et le construit, le voir et le dire. L’image n’est donc pas floue, c’est le spectateur
+        qui n’arrive pas à faire la mise au point. Le flou est moins un choix esthétique que sujet.
+        Le portrait est en fin de compte le prétexte qui permet à l’artiste de mettre en scène la
+        vision elle-même, d’en interroger non seulement son usage, mais aussi ce qui nous rend
+        partiellement aveugle dans la perception du réel. La totalité du monde visible n’est pas
+        vue, non pas parce qu’une partie n’apparaît pas, mais parce que cette partie n’a de réalité
+        que si nous modifions notre attention optique. En premier lieu, la perception tombe sur
+        l’impossible à percevoir, une stratégie qui insiste par ailleurs sur la limite de la
+        représentation et nous pousse à chercher l’imperceptible au-delà de notre propre vision.
+        <br />
+        <br />
+        Si l’immobilité contient le flou, le « brouillage » de l’image rend perceptibles les effets
+        de la vitesse dans la structure de la photographie. Cet effet n’est pas seulement d’ordre
+        optique. Il relève non seulement des choix artistiques et esthétiques de l’artiste, mais
+        aussi du rapport de l’œuvre à l’espace. Si le cadrage centre fréquemment le sujet, l’angle
+        de la prise de vue évite une réelle frontalité parfois subtilement, un léger décalage
+        latéral, en plongée ou en contre-plongée ; un choix qui permet à l’artiste d’attester de la
+        présence du corps, c’est-à-dire de son volume. L’ombre et la lumière jouent ainsi pleinement
+        leur rôle suggestif de la spatialité tout en participant à la conception d’une présence plus
+        spirituelle que charnelle œuvrant ainsi à une reconstruction fantasmatique du réel. Cet
+        aspect est encore plus sensible dans les portraits réalisés en noir et blanc. Leur dimension
+        spectrale, qu’accroît le contraste ou la luminosité, confère à cette série un statut
+        différent, d’une nature à la fois plus intime et intemporelle. Les portraits en couleur,
+        répartis dans les bâtiments du Pôle Optique, agissent différemment. Situés dans des lieux de
+        passage ou d’études, ces portraits, notamment en raison de leur format (jusqu’à 3 m x 4, 50
+        m) et de leur situation spatiale – du sol au plafond en faisant corps avec le mur –
+        entraînent la vision dans une matière quasi picturale et dans un champ proche de
+        l’abstraction. C’est seulement la distanciation du corps par rapport à l’image qui
+        permettrait à la figure d’apparaître selon la norme visuelle, nette.
+        <br />
+        <br />
+        Les Portraits réfléchis participent, dans l’œuvre de Marie-Noëlle Décoret, d’une esthétique
+        de la rupture. Rupture visuelle entre l’intention et la forme plastique, rupture
+        référentielle entre l’objet et le sujet, rupture esthétique entre mimésis et différence, des
+        œuvres qui jouent ainsi des discontinuités. Et dans ce théâtre d’ombres chinoises, la myopie
+        se dévoile telle une métaphore de notre vision déformée de la réalité.
       </div>
     ),
+    textDesc: <div>{'Sylvie LAGNIER, Docteure en Histoire de l’art — Lyon, août 2006'}</div>,
     images: [
       {
         url: '3488-11-BALTHAZAR-GRONON.jpg',

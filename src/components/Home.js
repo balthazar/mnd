@@ -83,7 +83,7 @@ const CategoryContent = styled.div`
     margin-bottom: 10px;
   }
 
-  h3 {
+  h2 {
     text-transform: uppercase;
     font-size: 11px;
   }
@@ -136,7 +136,7 @@ class Home extends Component {
         <CategoryLink animate={animateHome} dir={dir} />
         <CategoryContent animate={animateHome}>
           <img src={c.thumb} width={100} />
-          <h3>{c.title}</h3>
+          <h2>{c.title}</h2>
           <em>{c.date}</em>
         </CategoryContent>
       </Category>
