@@ -5,15 +5,13 @@ import webpackHotMiddleware from 'webpack-hot-middleware'
 import webpackConfig from '../../webpack/dev'
 
 export default server => {
-
   const compiler = webpack(webpackConfig)
 
   const devMiddlewareConfig = {
-    noInfo: true,
+    logLevel: 'silent',
     publicPath: webpackConfig.output.publicPath,
   }
 
   server.use(webpackDevMiddleware(compiler, devMiddlewareConfig))
   server.use(webpackHotMiddleware(compiler))
-
 }

@@ -1,25 +1,38 @@
 import webpack from 'webpack'
 import path from 'path'
 
+import * as globals from 'globals'
+
 export default {
-
-  entry: ['./src/client'],
-
+  entry: ['babel-polyfill', './src/client'],
+  resolve: {
+    modules: ['../src', '../node_modules'].map(p => path.resolve(__dirname, p)),
+  },
   output: {
     path: path.resolve(__dirname, '../dist'),
     filename: 'bundle.js',
     publicPath: '/dist/',
   },
-
-  plugins: [
-
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
-        __BROWSER__: JSON.stringify(true),
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/,
       },
+    ],
+  },
+  performance: {
+    hints: false,
+  },
+  plugins: [
+    new webpack.DefinePlugin({
+      ...Object.keys(globals).reduce((acc, key) => {
+        acc[key] = JSON.stringify(globals[key])
+        return acc
+      }, {}),
+      __BROWSER__: JSON.stringify(true),
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development'),
     }),
-
   ],
-
 }

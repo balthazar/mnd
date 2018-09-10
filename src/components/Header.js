@@ -1,29 +1,58 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+import { connect } from 'react-redux'
 
-class Header extends Component {
+const Container = styled.div`
+  position: absolute;
+  top: 50px;
+  left: 100px;
 
-  render () {
-    return (
-      <div className='header'>
-
-        <div className='fac'>
-          <h1 style={{ marginRight: '1rem' }}>{'Marie-Noëlle DÉCORET'}</h1>
-
-          <Link className='pompidou' to='https://www.centrepompidou.fr/cpv/resource/cEnpL9/rnpdar' target='_blank'>
-            <img src='/assets/images/pompidou.ico' />
-          </Link>
-        </div>
-
-        <div className='menu'>
-          <Link to='/'>{'Home'}</Link>
-          <Link to='/cv'>{'CV'}</Link>
-        </div>
-
-      </div>
-    )
+  h1 {
+    font-size: 20px;
   }
 
+  div {
+    margin-top: 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    > a:last-child {
+      margin-left: auto;
+    }
+
+    > * + * {
+      margin-left: 20px;
+    }
+  }
+`
+
+@connect(({ router: { location: { pathname } } }) => ({ pathname }))
+class Header extends Component {
+  render() {
+    const { pathname } = this.props
+
+    return (
+      <Container>
+        <h1>{'Marie-Noëlle Décoret'}</h1>
+        <div>
+          <Link to="/">{'HOME'}</Link>
+          <Link to="/bio">{'BIOGRAPHY'}</Link>
+          <a href="https://www.centrepompidou.fr/cpv/resource/cEnpL9/rnpdar" target="_blank">
+            <img src="/assets/pompidou.ico" width={20} />
+          </a>
+        </div>
+      </Container>
+    )
+  }
 }
 
 export default Header

@@ -1,43 +1,161 @@
 import React, { Component } from 'react'
+import styled, { keyframes } from 'styled-components'
+import { connect } from 'react-redux'
+import { Link } from 'react-router-dom'
 
-const items = [{
-  title: 'Couvent de la Tourette - Le Corbusier',
-  date: '2014',
-  thumb: 'couvent',
-}, {
-  title: 'Chambres d\'isolement',
-  date: '2012 / ...',
-  thumb: 'chambres',
-}, {
-  title: 'Tunnels',
-  date: '1999 / ...',
-  thumb: 'tunnels',
-}, {
-  title: 'Portraits Réfléchis',
-  date: '2002 / ...',
-  thumb: 'portraits',
-}]
+import Header from 'components/Header'
 
+import { disableAnimate } from 'reducers/ui'
+import { worksList } from 'works'
+
+const delayLine = 500
+const lineHeight = 3
+
+const linkHeight = 50
+const linkMargin = 20
+
+const itemHeight = 150
+
+const growX = keyframes`
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+`
+
+const growY = keyframes`
+  from { transform: scaleY(0); }
+  to   { transform: scaleY(1); }
+`
+
+const show = keyframes`
+  from { opacity: 0; }
+  to   { opacity: 1; }
+`
+
+const Container = styled.div`
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+`
+
+const Line = styled.div`
+  height: 3px;
+  background-color: #3c3c3d;
+  animation: ${growX} ${p => (p.instant ? 0 : delayLine)}ms ease-in;
+  transform-origin: left;
+  position: relative;
+`
+
+const Category = styled(Link)`
+  position: absolute;
+  top: ${p =>
+    p.dir === 'bottom'
+      ? linkMargin + lineHeight + linkHeight
+      : -linkHeight - linkMargin - itemHeight}px;
+  left: ${p => p.x}%;
+
+  ${p => (p.fade ? 'opacity: 0.5;' : '')};
+  transition: opacity 250ms ease-in;
+  text-decoration: none;
+`
+
+const CategoryLink = styled.div`
+  position: absolute;
+  top: ${p => (p.dir === 'bottom' ? -linkHeight - linkMargin / 2 : itemHeight + linkMargin / 2)}px;
+
+  background-color: #3c3c3d;
+  height: ${linkHeight}px;
+  width: 1px;
+
+  ${p => (p.animate ? `animation: ${growY} 200ms ease-in;` : '')};
+  transform-origin: ${p => (p.dir === 'bottom' ? 'top' : 'bottom')};
+`
+
+const CategoryContent = styled.div`
+  opacity: ${p => (p.animate ? 0 : 1)};
+  ${p => (p.animate ? `animation: ${show} 500ms 500ms ease-in;` : '')};
+  animation-fill-mode: forwards;
+
+  display: flex;
+  flex-direction: column;
+
+  img {
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+`
+
+@connect(
+  ({ ui: { animateHome } }) => ({ animateHome }),
+  { disableAnimate },
+)
 class Home extends Component {
+  state = {
+    showCategories: false,
+  }
 
-  render () {
+  componentDidMount() {
+    const { animateHome } = this.props
+    if (!animateHome) {
+      return
+    }
+
+    setTimeout(this.showCategories, delayLine + 200)
+  }
+
+  showCategories = () => {
+    this.setState({ showCategories: true })
+    setTimeout(this.props.disableAnimate, 1e3)
+  }
+
+  changeActive = index => {
+    this.setState({ activeCategory: index })
+  }
+
+  renderCategory = (c, index) => {
+    const { animateHome } = this.props
+    const { activeCategory } = this.state
+
+    const x = Math.clamp((index / worksList.length) * 100, 5, 95)
+    const dir = index % 2 ? 'top' : 'bottom'
+
     return (
-      <div className='content'>
-
-        {items.map(item => (
-          <div className='home-item'>
-            <div style={{ marginBottom: '0.5rem' }}>
-              {item.title}
-              <span style={{ color: '#aaa', marginLeft: '0.5rem' }}>{item.date}</span>
-            </div>
-            <img src={`/assets/images/${item.thumb}/thumb.jpg`} />
-          </div>
-        ))}
-
-      </div>
+      <Category
+        onMouseOver={() => this.changeActive(index)}
+        onMouseOut={() => this.changeActive()}
+        key={`${c.title}${index}`}
+        x={x}
+        dir={dir}
+        fade={!isNaN(activeCategory) && activeCategory !== index ? 1 : 0}
+        to={c.url}
+      >
+        <CategoryLink animate={animateHome} dir={dir} />
+        <CategoryContent animate={animateHome}>
+          <img src={c.thumb} width={100} />
+          <h3>{c.title}</h3>
+          <em>{c.date}</em>
+        </CategoryContent>
+      </Category>
     )
   }
 
+  render() {
+    const { animateHome } = this.props
+    const { showCategories } = this.state
+
+    return (
+      <Container>
+        <Header />
+        <Line innerRef={c => (this.line = c)} instant={animateHome ? 0 : 1}>
+          {(!animateHome || showCategories) && worksList.map(this.renderCategory)}
+        </Line>
+      </Container>
+    )
+  }
 }
 
 export default Home

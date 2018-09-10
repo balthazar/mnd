@@ -1,5 +1,6 @@
 import Home from 'components/Home'
-import Cv from 'components/Cv'
+import Biography from 'components/Biography'
+import Work from 'components/Work'
 
 export default [
   {
@@ -8,8 +9,13 @@ export default [
     component: Home,
   },
   {
-    path: '/cv',
+    path: '/bio',
     exact: true,
-    component: Cv,
+    component: Biography,
+  },
+  {
+    path: '/works/:id',
+    exact: true,
+    component: Work,
   },
 ]
