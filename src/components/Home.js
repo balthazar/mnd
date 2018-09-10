@@ -120,7 +120,7 @@ class Home extends Component {
     const { animateHome } = this.props
     const { activeCategory } = this.state
 
-    const x = Math.clamp((index / worksList.length) * 100, 5, 95)
+    const x = Math.clamp((index / worksList.length) * 100, 3, 95)
     const dir = index % 2 ? 'top' : 'bottom'
 
     return (

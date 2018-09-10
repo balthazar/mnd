@@ -3,7 +3,7 @@ import React from 'react'
 const works = {
   affiches: {
     title: 'Affiches',
-    date: 1995,
+    date: '1995 / 1998',
     text: (
       <div>
         Ce n’est plus une insulte, c’est presque un bon mot, une raillerie de cour de récréation. À
@@ -110,40 +110,90 @@ const works = {
       },
     ],
   },
+  mouchoirs: {
+    title: 'Mouchoirs',
+    date: '1994 / 1996',
+    text: null,
+    images: [
+      {
+        url: '01-MOUCHOIRS-L-MMENSITE.jpg',
+        text: (
+          <div>
+            <em>L’Immensité</em>, 1994
+            <br />
+            Mouchoir d’homme, fil, épingles
+            <br />
+            41 x 42 cm
+          </div>
+        ),
+      },
+      {
+        url: '02-MOUCHOIRS-DYPTIQUE.jpg',
+        text: (
+          <div>
+            <em>Sans titre</em>, 1994
+            <br />
+            Mouchoirs d’homme, fil, épingles
+            <br />
+            Dyptique
+            <br />
+            41 x 89 cm
+          </div>
+        ),
+      },
+      {
+        url: '03-MOUCHOIRS-TRYPTIQUE-BRAILLE.jpg',
+        text: (
+          <div>
+            <em>L’Éblouissement</em>, 1995
+            <br />
+            Mouchoirs d’homme, fil, épingles
+            <br />
+            Tryptique
+            <br />
+            41 x 133 cm
+          </div>
+        ),
+      },
+    ],
+  },
   'peintures-aveugle': {
     title: "Peintures d'Aveugle",
-    date: 1995,
+    date: '1995 / ...',
     text: (
       <div>
-        L’image de Narcisse amoureux, objet de lui-même penché sur son reflet est ici associée à
-        l’image de l’aveugle, son avancée dans les ténèbres mains tendues, appréhendant l’imminence
-        de sa chute.
-        <br />
-        Ce travail est la rencontre de la peinture et de son histoire avec la matière, c’est aussi
-        la rencontre de l’artiste avec la lumière.<br />
-        Réflexion sur l’image et son renvoi, sur la perception, l’apparition et la disparition.
-        <br />
-        <br />
-        Les motifs sont puisés dans les fonds des bibliothèques.
-        <br />
-        De la peinture blanche appliquée sur le papier immaculé, naîtra une image issue de
-        l’histoire, dissoute, presque désincarnée, et dont l’élaboration ne permet pas le repentir.
-        <br />
-        <br />
-        Le spectateur lui, sera contraint au mouvement, à chercher, trouver le meilleur angle de la
-        source lumineuse, se positionner pour en saisir l’incidence puis sa réflexion.
-        <br />
-        Ces facteurs réunis, que l’on se positionne à droite ou à gauche de l’œuvre, les images
-        apparaitront en blanc ou à l’opposé en négatif, comme grisées sur la blancheur du support.
-        <br />
-        Ces mêmes images, regardées en posture frontale, d’elles-mêmes disparaîtront.
+        Marie-Noëlle Decoret est un rien têtue : voici qu’elle revient à la peinture, mais à travers
+        le thème de l’aveuglement. Déjà, certains mouchoirs portaient des inscriptions en braille.
+        Comme si la lumière avait fini par suspendre la vue au profit du toucher. Avec les dessins
+        blancs sur papier blanc, la peinture est vidée de sa substance. Plus de couleurs, un tracé
+        presque imperceptible, sauf à trouver l’angle sous lequel la lumière viendra effleurer le
+        papier et révéler la figure. Cela contraint à regarder l’oeuvre de biais. Comme les
+        malvoyants recherchent la moindre variation de luminosité dans leur pénombre. Sauf qu’ici,
+        c’est la blancheur qui perturbe notre perception. Sur le lourd papier immaculé, l’artiste a
+        recyclé toute une iconographie de la cécité : Les Aveugles de Brueghel ou de Coypel, Tobie
+        par Gregorio Pagani, Saint Paul d’après Raphaël, Poussin ou Le Parmesan, Le Christ
+        guérissant un aveugle d’après Le Sueur, etc. Des tableaux ne demeure ici qu’une impression
+        fugace qui se livre sur le mode de la révélation.
         <br />
         <br />
-        Ces <em>Peintures d’aveugle</em> se jouent de l’illusion.
+        L’effort d’attention du spectateur va de pair avec l’exercice de patience de l’artiste. Les
+        effets que produisent les oeuvres redondent leur sujet. Il va sans dire qu’un tel travail
+        est courageux : il se plie mal aux exigences de l’exposition et de la reproduction. Il se
+        vit dans l’intuition de sa disparition. L’image évanouie, il ne nous reste plus qu’à nous
+        frotter les yeux.
         <br />
-        Elles relèvent par leur évanescence, de la fantasmagorie comme du spectre.
+        <br />
+        On se souvient de la chute de Saint Paul : une lumière l’aveugle et des “ écailles tombent
+        de ses yeux ”, désormais il peut voir au-delà du vain. Cette conversion fournit la
+        transition des cécités aux vanités : autant d’allégories de l’aveuglement qui ramènent à la
+        dépréciation de la vue, à l’interdiction du regard. Autant de questions métaphoriques
+        adressées au tableau. D’où la série suivante sur les représentations allégoriques de la
+        peinture. Du butoir du carré blanc de Malévich aux images à travers lesquelles la peinture
+        commence à se réfléchir, c’est toute une histoire en mode mineur qui se dessine en filigrane
+        sur les pages blanches de Marie-Noëlle Decoret.
       </div>
     ),
+    textDesc: <div>{'Valérie MAVRIDORAKIS — Genève, Novembre 1996'}</div>,
     images: [
       {
         url: 'SER-01-RAPHAEL-ELYMAS.jpg',
@@ -227,7 +277,7 @@ const works = {
   },
   tunnels: {
     title: 'Tunnels',
-    date: 1999,
+    date: '1999 / 2001',
     text: (
       <div>
         <em>
@@ -356,9 +406,68 @@ const works = {
       },
     ],
   },
+  'releves-trinite': {
+    title: 'Relevés Trinité',
+    date: '2000',
+    text: (
+      <div>
+        Graver son patronyme dans le marbre d'une des balustrades de la chapelle de son école c'est,
+        sans forcement en avoir pleinement conscience, tenter de lutter contre l'oubli. De 1703 à
+        1940 nombre d'élèves ont perpétué ce rite pourtant interdit. Leurs outils : clous ou pointes
+        de compas sont rudimentaires et scolaires. L'écriture est griffée ou profonde, la lettre
+        souvent capitale. Certains réitèrent l'exercice, d'autres le datent. Si Baudelaire ou Bichat
+        également élèves des Jésuites, ont inscrit autrement leurs noms dans l'histoire, ceux que la
+        postérité n'a pas retenus doivent à Marie-Noëlle Décoret de sortir de l'oubli. Par un
+        minutieux travail de frottage à la mine de plomb, elle fait apparaître leur nom à la surface
+        d'un fin papier calque. Encadrées et accrochées au mur ces traces se trouvent doublement
+        relevées et exposées.
+        <br />
+        Le noir de la mine de plomb est dense, brillant comme le marbre. Le coup de crayon plus ou
+        moins régulier enregistre les gravures plus ou moins profondes, les veines du marbre, les
+        accidents et les altérations du temps. Au geste instinctif et mordant des élèves,
+        Marie-Noëlle Décoret oppose celui patient et doux de l'estampage. Le relevé exhaustif ne
+        privilégie personne, il rend compte d'un ensemble et d'une durée.
+        <br />
+        <br />
+        Une fois de plus et tout en restant fidèle à sa démarche Marie-Noëlle Décoret révèle et met
+        au jour ce que nous n'aurions pu voir sans elle.
+      </div>
+    ),
+    textDesc: <div>{'Claude-Hubert Tatot — Genève, juin 2005'}</div>,
+    images: [
+      {
+        url: 'TRINITE-V-21-2000.jpg',
+        text: (
+          <div>
+            <em>Relevé vertical 21/21</em>, 2000
+            <br />
+            Mine de plomb sur calque
+            <br />
+            Exemplaire unique
+            <br />
+            37,5 x 47 cm
+          </div>
+        ),
+      },
+      {
+        url: 'TRINITE-V-14-2000.jpg',
+        text: (
+          <div>
+            <em>Relevé vertical 14/21</em>, 2000
+            <br />
+            Mine de plomb sur calque
+            <br />
+            Exemplaire unique
+            <br />
+            37,5 x 95 cm
+          </div>
+        ),
+      },
+    ],
+  },
   'portraits-reflechis': {
-    title: 'Portraits Reflechis',
-    date: 2004,
+    title: 'Portraits Réflechis',
+    date: '2002 / ...',
     text: (
       <div>
         Dans le thème récurrent du portrait photographique, Marie-Noëlle DÉCORET choisit des
@@ -463,113 +572,9 @@ const works = {
       },
     ],
   },
-  'portraits-deguises': {
-    title: 'Portraits Deguises',
-    date: 2006,
-    text: (
-      <div>
-        Dans le cadre d’une résidence Cultures-France en 2006 au Sénégal à Dakar, j’ai aussi
-        photographié des enfants déguisés pour Mardi gras.
-        <br />
-        <br />
-        Quelques quarante portraits ont été réalisés en noir et blanc, plus de quarante images
-        d’enfants costumés et porteurs de rêve, plus de quarante élèves qui ont posé en pleine fête
-        de Mardi gras avec aplomb et gravité.
-        <br />
-        <br />
-        Ce travail a été exposé à la galerie Le Manège, de l’Institut culturel français de Dakar en
-        novembre 2006.
-        <br />
-        Pierre-Jean RÉMY, de l’Académie française a écrit le texte pour le catalogue de ces{' '}
-        <em>Portraits déguisés</em>.
-      </div>
-    ),
-    images: [
-      {
-        url: '18-03-SHEHERAZADE.jpg',
-        text: (
-          <div>
-            <em>Shéhérazade</em>, Dakar 2006
-            <br />
-            Photographie analogique
-            <br />
-            Tirage baryté contrecollé sur alu Dibond
-            <br />
-            3 exemplaires
-            <br />
-            40 x 40cm
-          </div>
-        ),
-      },
-      {
-        url: '18-04-TORTUE-NINJA.jpg',
-        text: (
-          <div>
-            <em>Tortue Ninja</em>, Dakar 2006
-            <br />
-            Photographie analogique
-            <br />
-            Tirage baryté contrecollé sur alu Dibond
-            <br />
-            3 exemplaires
-            <br />
-            40 x 40cm
-          </div>
-        ),
-      },
-      {
-        url: '18-05-JEUNE-FILLE-AUX-FLEURS.jpg',
-        text: (
-          <div>
-            <em>Jeune-fille aux fleurs</em>, Dakar 2006
-            <br />
-            Photographie analogique
-            <br />
-            Tirage baryté contrecollé sur alu Dibond
-            <br />
-            3 exemplaires
-            <br />
-            40 x 40cm
-          </div>
-        ),
-      },
-      {
-        url: '19-01-SOLDAT.jpg',
-        text: (
-          <div>
-            <em>Soldat</em>, Dakar 2006
-            <br />
-            Photographie analogique
-            <br />
-            Tirage baryté contrecollé sur alu Dibond
-            <br />
-            3 exemplaires
-            <br />
-            40 x 40cm
-          </div>
-        ),
-      },
-      {
-        url: '19-06-JEUNE-POULARE.jpg',
-        text: (
-          <div>
-            <em>Jeune Poulare</em>, Dakar 2006
-            <br />
-            Photographie analogique
-            <br />
-            Tirage baryté contrecollé sur alu Dibond
-            <br />
-            3 exemplaires
-            <br />
-            40 x 40cm
-          </div>
-        ),
-      },
-    ],
-  },
   'chambres-isolement': {
     title: "Chambres d'isolement",
-    date: 2012,
+    date: '2002 / 2012',
     text: (
       <div>
         […] la dernière série que Marie-Noëlle Décoret expose à la Ferme du Vinatier intitulée
@@ -794,9 +799,158 @@ const works = {
       },
     ],
   },
+  'portraits-deguises': {
+    title: 'Portraits Deguises',
+    date: 2006,
+    text: (
+      <div>
+        Quel drôle de carnaval que le carnaval de Marie-Noëlle Décoret ! On la connaissait pour des
+        images plus sobres, plus sombres aussi, comme pétrifiées: on pense à ces bateaux qu’on
+        dirait calcinés qu’elle a photographiés à leur sortie d’un fleuve où ils dormaient depuis
+        des siècles. Ou à ces tunnels – sont-ce vraiment des tunnels ? - qui ouvrent soudain sur
+        rien. Le vide.
+        <br />
+        <br />
+        Et voilà qu’au Sénégal, chez les Maristes, dans leur immense école à Dakar, elle redécouvre
+        la couleur. Violemment. La couleur ? Oui… Car ce sont des enfants aux costumes de couleur,
+        qu’avec son gros Hasselblad, elle a entrepris de photographier. Une cinquantaine de gosses
+        entre trois et treize ans d’une école de plus de quatre mille élèves, quarante-huit
+        nationalités, multi-etnique, multiraciale, multicolore, pour un jour de Mardi gras.
+        Éblouissants, ces enfants en costume de princesse ou en mariée du côté des filles, en soldat
+        ou en Batman du côté des garçons. Chacun avait revêtu le costume de ses fantasmes, familiers
+        pour la plupart chez les demoiselles, télévisuels pour les garçons. Et on imagine qu’ils
+        riaient, qu’ils s’amusaient dans les cours de récréation ou aux environs de leur école. On
+        imagine dès lors ce que les photo- graphes si bien pensants que sélectionne depuis des
+        siècles l’Unicef pour montrer des gosses ravis ou si théâtralement tristes qu’on affiche en
+        couleurs qu’on osera dire criardes sur les grilles du Luxembourg : on imagine la fête
+        joyeuse ou mélodramatique qu’on en aurait tiré.
+        <br />
+        <br />
+        Marie-Noëlle Décoret a fait autre chose. Lentement, posément, son gros appareil solidement
+        posé sur un trépied, quelques rouleaux à peine de pellicule, toute la richesse de
+        l’argentique qu’elle ose encore préférer au numérique, elle en a photographié, un à un, une
+        petite cinquantaine. Et eux qui étaient si hauts en couleur, l’étoile d’argent du sheriff et
+        son foulard écarlate, les colifichets dorés des élégantes Indiennes de sept ans, c’est en
+        noir et blanc qu’elle les a saisis.
+        <br />
+        <br />
+        Saisis: c’est bien le mot. Saisis au milieu de leur fête dans un moment de solitude quand,
+        face au cube noir de la caméra dont ils ne savaient pas très bien ce qu’elle a de commun
+        avec les petits appareils sophistiqués ou jetables qui inondent tous les marchés, ils
+        rentrent en eux-mêmes. Seuls. Qu’on les regarde bien: bien peu d’entre eux, deux ou trois
+        peut-être, sourient: ils sont montrés comme stupéfaits dans ces beaux costumes de Mardi gras
+        qui vous ont subitement une allure de vêtements de vraie cérémonie. Comme si toutes ces
+        gamines qui jouent à la mariée devenaient d’un coup des petites mariées, ravissantes mais si
+        graves, car c’est grave d’être une mariée, même dans la cour de récréation de son école.
+        Même quand on a douze ans.
+        <br />
+        <br />
+        Ce que la magicienne qui les a fait poser là a saisi - saisi donc – est leur rêve. Quoi de
+        plus beau qu’un enfant qui rêve ? Un petit prince, une petite princesse qui se rêve prince
+        ou princesse et que l’objectif d’une jeune femme transforme pour nous, pour vous mais aussi
+        pour eux, en prince, en princesse qu’on affichera bientôt sur les murs d’une galerie. Dont
+        on fera un livre.
+        <br />
+        <br />
+        Nous ne savons le prénom d’aucun d’entre eux. Quarante-huit nationalités: on multiplie par
+        quarante-huit le champ des possibles. Leur nom, leur prénom, ils les ont retrouvés sitôt que
+        l’œil bien rond de la boîte carrée s’est ouvert puis refermé sur eux. Mais pour nous, ils
+        vont demeurer pour longtemps - on n’ose pas dire toujours… - ces figures énigmatiques,
+        emblématiques d’un rôle qu’ils se sont choisis parce qu’ils s’y voyaient, et qui va rester
+        figé en même temps que leur visage dans ce drôle de carnaval que Marie-Noëlle Décoret a
+        réinventé pour eux. Il existe des portraits criants de vérité. D’autres qui sont des aperçus
+        lointains d’une réalité. D’autres encore qui ne sont que des reflets, des ombres. Sous leurs
+        habits de carnaval, on a le sentiment que ce sont des âmes d’enfant, en tout ce qu’elles ont
+        de ferveur et d’angoisse, qu’une photographe, leur amie, a su immortaliser.
+      </div>
+    ),
+    textDesc: <div>{'Pierre-Jean Rémy, de l’Académie française — Octobre 2006'}</div>,
+    images: [
+      {
+        url: '18-03-SHEHERAZADE.jpg',
+        text: (
+          <div>
+            <em>Shéhérazade</em>, Dakar 2006
+            <br />
+            Photographie analogique
+            <br />
+            Tirage baryté contrecollé sur alu Dibond
+            <br />
+            3 exemplaires
+            <br />
+            40 x 40cm
+          </div>
+        ),
+      },
+      {
+        url: '18-04-TORTUE-NINJA.jpg',
+        text: (
+          <div>
+            <em>Tortue Ninja</em>, Dakar 2006
+            <br />
+            Photographie analogique
+            <br />
+            Tirage baryté contrecollé sur alu Dibond
+            <br />
+            3 exemplaires
+            <br />
+            40 x 40cm
+          </div>
+        ),
+      },
+      {
+        url: '18-05-JEUNE-FILLE-AUX-FLEURS.jpg',
+        text: (
+          <div>
+            <em>Jeune-fille aux fleurs</em>, Dakar 2006
+            <br />
+            Photographie analogique
+            <br />
+            Tirage baryté contrecollé sur alu Dibond
+            <br />
+            3 exemplaires
+            <br />
+            40 x 40cm
+          </div>
+        ),
+      },
+      {
+        url: '19-01-SOLDAT.jpg',
+        text: (
+          <div>
+            <em>Soldat</em>, Dakar 2006
+            <br />
+            Photographie analogique
+            <br />
+            Tirage baryté contrecollé sur alu Dibond
+            <br />
+            3 exemplaires
+            <br />
+            40 x 40cm
+          </div>
+        ),
+      },
+      {
+        url: '19-06-JEUNE-POULARE.jpg',
+        text: (
+          <div>
+            <em>Jeune Poulare</em>, Dakar 2006
+            <br />
+            Photographie analogique
+            <br />
+            Tirage baryté contrecollé sur alu Dibond
+            <br />
+            3 exemplaires
+            <br />
+            40 x 40cm
+          </div>
+        ),
+      },
+    ],
+  },
   'tourette-corbusier': {
     title: 'La Tourette - Corbusier',
-    date: 2014,
+    date: '2006 / 2014',
     text: (
       <div>
         Travaillant sur les lieux de retrait construits par l’homme et pour l’homme et dans la
@@ -917,7 +1071,7 @@ const works = {
   },
   'portraits-fanes': {
     title: 'Portraits Fanes',
-    date: 2016,
+    date: '2016 / ...',
     text: (
       <div>
         <em>
@@ -1025,58 +1179,18 @@ const works = {
   },
   'portraits-sanguins': {
     title: 'Portraits Sanguins',
-    date: 2016,
+    date: '2016 / ...',
     text: null,
     images: [
-      { url: 'BACON-FRANCIS-1-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'BEUYS-JOSEPH-1-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'BOETTI-ALIGHIERO-1-24x18-MNDECORET.jpg', text: <div /> },
       { url: 'BOURGEOIS-LOUISE-1-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'BREUGHEL-PIETER-1-24x18-MNDECORET.jpg', text: <div /> },
       { url: 'BROODTHAERS-MARCEL-1-24X18-MNDECORET.jpg', text: <div /> },
-      { url: 'BURKHARD-BALTHASAR-1-24X18-MNDECORET.jpg', text: <div /> },
-      { url: 'CALDER-ALEXANDRE-24x18-MNDECORET.jpg', text: <div /> },
       { url: 'CRANACH-LUCAS-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'DELLA-FRANCESCA-PIERO-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'DIETMAN-ERIK-2-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'DUCHAMP-MARCEL-2-24X18-MNDECORET.jpg', text: <div /> },
-      { url: 'DURER-ALBRECHT-2-24x18-MNDECORET.jpg', text: <div /> },
       { url: 'ENSOR-JAMES-24X18-MNDECORET.jpg', text: <div /> },
-      { url: 'ERNST-MAX-3-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'GERICAULT-THEODORE-2-24x18-MNDECORET.jpg', text: <div /> },
       { url: 'GIACOMETTI-ALBERTO-3-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'GROSZ-GEORG-6-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'HAINS-RAYMOND-1-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'HORNUNG-LOUISE-24x18-MNDECORET.jpg', text: <div /> },
       { url: 'KAHLO-FRIDA-2-24x18-MNDECORET.jpg', text: <div /> },
       { url: 'KLOSSOWSKI-PIERRE-3-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'KOUNELLIS-JANNIS-1-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'MANTEGNA-ANDREA-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'MATISSE-HENRI-4-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'MERZ-MARIO-2-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'MICHELANGELO-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'MIRO-JOAN-1-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'NIÉPCE-NICÉPHORE-1-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'ON-KAWARA-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'OPALKA-ROMAN-1-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'PICABIA-FRANCIS-3-6-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'RAFFAELO-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'RAUSCHENBERG-ROBERT-1-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'ROMANO-GIULIO-24x18-MNDECORET.jpg', text: <div /> },
       { url: 'SAINT-PHALLE de-NIKI-1-24X18-MNDECORET.jpg', text: <div /> },
-      { url: 'SCHIELE-EGON-2-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'SCHUBERT-FRANZ-1-24x18-MNDECORET.jpg', text: <div /> },
       { url: 'TINGUELY-JEAN-1-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'VELASQUEZ-DIEGO-24X18-MNDECORET.jpg', text: <div /> },
-      { url: 'VINCI-DA-LEONARDO-24X18-MNDECORET.jpg', text: <div /> },
-      { url: 'WARHOL-ANDY-3-24X18-MNDECORET.jpg', text: <div /> },
-    ],
-  },
-  'portraits-sanguins-2': {
-    title: 'Portraits Sanguins',
-    date: 2018,
-    text: null,
-    images: [
       { url: 'ARBUS-L1210964-RET-REC.jpg', text: <div /> },
       { url: 'ARP-L1210962-RET-REC.jpg', text: <div /> },
       { url: 'BACON-L1210963-RET-REC.jpg', text: <div /> },
