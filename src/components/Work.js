@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import Lightbox from 'react-image-lightbox'
 
 import Header from 'components/Header'
 
 import works from 'works'
+
+const Lightbox = typeof window !== 'undefined' ? require('react-image-lightbox').default : null
 
 const Content = styled.div`
   margin: 150px 100px 100px 100px;
@@ -63,7 +64,7 @@ class Work extends Component {
       <div>
         <Header />
 
-        {typeof window !== 'undefined' &&
+        {Lightbox &&
           selected !== null && (
             <Lightbox
               mainSrc={`/assets/${id}/${work.images[selected].url}`}
