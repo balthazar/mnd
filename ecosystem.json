@@ -18,7 +18,7 @@
       "ref"        : "origin/master",
       "repo"       : "git@github.com:Apercu/mnd.git",
       "path"       : "/var/www/mnd",
-      "post-deploy": "yarn && npm run build && pm2 startOrRestart ecosystem.json --env production"
+      "post-deploy": "yarn --ignore-engines && npm run build && pm2 startOrRestart ecosystem.json --env production"
     }
   }
 }
