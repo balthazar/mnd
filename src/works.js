@@ -142,6 +142,8 @@ const works = {
             Tirage jet d’encre sur bâche Archiva
             <br />
             190 x 130cm
+            <br />
+            Collection Frac Franche-Comté
           </div>
         ),
       },
@@ -217,7 +219,7 @@ const works = {
         Ce travail évoque la réserve, la timidité, la neutralité. Ce sont les qualités perdues de la
         femme idéale. Alors que socialement une telle caractérisation relèverait de l’aliénation,
         Marie-Noëlle Decoret en a fait le manifeste de sa vie d’artiste. On aura compris que ces
-        mouchoirs ne sont pas innocents.
+        mouchoirs ne sont pas innocents. [...]
       </div>
     ),
     textDesc: (
@@ -394,9 +396,42 @@ const works = {
   },
   'portraits-dartistes': {
     title: "Portraits d'Artistes",
-    date: 1997,
-    text: null,
-    images: [{ url: '01-COLLIN-THIEBAUT-1997.jpg', text: <div /> }],
+    date: '1997 / ...',
+    text: (
+      <div>
+        Il m’importe, le choix de l’artiste et le lieu propice à notre rencontre.
+        <br />
+        Devant une feuille de papier fixée au mur l'artiste est placé frontalement.
+        <br />
+        J’en contourne le buste avec un crayon graphite.
+        <br />
+        <br />
+        Modèle vivant, l’artiste est saisi à l‘échelle 1.
+        <br />
+        <br />
+        Trace ténue de notre rencontre à un instant donné, une ligne rappelle le geste, l’empreinte,
+        le passage. L’être là.
+        <br />
+        <br />
+        L’ensemble forme collection.
+      </div>
+    ),
+    images: [
+      {
+        url: '01-COLLIN-THIEBAUT-1997.jpg',
+        text: (
+          <div>
+            Portrait 01
+            <br />
+            <em>Gérard COLLIN-THIÉBAUT</em>, 1997
+            <br />
+            Poudre graphite sur mur
+            <br />
+            41 x 33 cm
+          </div>
+        ),
+      },
+    ],
   },
   tunnels: {
     title: 'Tunnels',
