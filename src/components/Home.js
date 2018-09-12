@@ -93,7 +93,7 @@ const CategoryContent = styled.div`
 `
 
 @connect(
-  ({ ui: { animateHome } }) => ({ animateHome: false }),
+  ({ ui: { animateHome } }) => ({ animateHome }),
   { disableAnimate },
 )
 class Home extends Component {
