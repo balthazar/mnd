@@ -69,6 +69,8 @@ const Category = styled(Link)`
   ${p => (p.fade ? 'opacity: 0.5;' : '')};
   transition: opacity 250ms ease-in;
   text-decoration: none;
+
+  ${p => (p.isLast ? 'width: 200px' : '')};
 `
 
 const CategoryLink = styled.div`
@@ -145,6 +147,7 @@ class Home extends Component {
         dir={dir}
         fade={!isNaN(activeCategory) && activeCategory !== index ? 1 : 0}
         to={c.url}
+        isLast={index === worksList.length - 1}
       >
         <CategoryLink animate={animateHome} dir={dir} />
         <CategoryContent animate={animateHome}>
