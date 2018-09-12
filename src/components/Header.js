@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Container = styled.div`
   position: absolute;
   top: 50px;
-  left: 100px;
+  left: 50px;
 
   h1 {
     font-size: 20px;

@@ -39,10 +39,18 @@ const Container = styled.div`
   flex-direction: column;
 `
 
+const Display = styled.div`
+  position: relative;
+  flex: 1;
+  margin-top: 150px;
+  min-height: 500px;
+`
+
 const Line = styled.div`
   height: 3px;
-  position: relative;
-  margin-top: 200px;
+  position: fixed;
+  top: 370px;
+  width: 100%;
 
   background-color: #3c3c3d;
   animation: ${growX} ${p => (p.instant ? 0 : delayLine)}ms ease-in;
@@ -53,8 +61,8 @@ const Category = styled(Link)`
   position: absolute;
   top: ${p =>
     p.dir === 'bottom'
-      ? linkMargin + lineHeight + linkHeight
-      : -linkHeight - linkMargin - itemHeight}px;
+      ? 220 + linkMargin + lineHeight + linkHeight
+      : 220 + -linkHeight - linkMargin - itemHeight}px;
   left: ${p => p.x}px;
 
   ${p => (p.fade ? 'opacity: 0.5;' : '')};
@@ -103,11 +111,6 @@ class Home extends Component {
 
   componentDidMount() {
     const { animateHome } = this.props
-
-    window.addEventListener('resize', event => {
-      console.log('eve', event)
-      console.log(event.deltaY)
-    })
 
     if (!animateHome) {
       return
@@ -159,9 +162,10 @@ class Home extends Component {
     return (
       <Container>
         <Header />
-        <Line innerRef={c => (this.line = c)} instant={animateHome ? 0 : 1}>
+        <Display>
+          <Line innerRef={c => (this.line = c)} instant={animateHome ? 0 : 1} />
           {(!animateHome || showCategories) && worksList.map(this.renderCategory)}
-        </Line>
+        </Display>
       </Container>
     )
   }
