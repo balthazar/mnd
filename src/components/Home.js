@@ -44,6 +44,7 @@ const Display = styled.div`
   flex: 1;
   margin-top: 150px;
   min-height: 500px;
+  overflow-y: hidden;
 `
 
 const Line = styled.div`
