@@ -6,6 +6,8 @@ const works = {
     date: '1995 / 1998',
     text: (
       <div>
+        <h3>Ta mère à poil devant Prisunic</h3>
+        <br />
         Ce n’est plus une insulte, c’est presque un bon mot, une raillerie de cour de récréation. À
         l’époque où les mères cachaient leurs minijupes sous des maxi manteaux, 317 salopes
         retournaient l’insulte pour en faire leur étendard et revendiquer le droit d’avorter. La
@@ -36,7 +38,13 @@ const works = {
         Prisunic de quartier.
       </div>
     ),
-    textDesc: <div>{'Claude-Hubert Tatot — Genève, février 2002'}</div>,
+    textDesc: (
+      <div>
+        <div>{'Claude-Hubert Tatot — Genève, Février 2002'}</div>
+        <br />
+        {'Exposition Villa du Parc, Annemasse (21 mars – 17 mai 2003)'}
+      </div>
+    ),
     images: [
       {
         url: 'ENERGIE-NAPLES-1996.jpg',
@@ -91,6 +99,49 @@ const works = {
             Tirage jet d’encre sur bâche Archiva
             <br />
             130 x 190cm
+          </div>
+        ),
+      },
+
+      {
+        url: 'IP-ROME-1995.jpg',
+        text: (
+          <div>
+            <em>IP</em>, Rome, 1995
+            <br />
+            Photographie couleur
+            <br />
+            Tirage jet d’encre sur bâche Archiva
+            <br />
+            190 x 130cm
+          </div>
+        ),
+      },
+      {
+        url: 'MI-AMI-NAPLES-1996.jpg',
+        text: (
+          <div>
+            <em>Mi ami</em>, Naples, 1996
+            <br />
+            Photographie couleur
+            <br />
+            Tirage jet d’encre sur bâche Archiva
+            <br />
+            190 x 130cm
+          </div>
+        ),
+      },
+      {
+        url: 'PERRIER-CALUIRE-1996.jpg',
+        text: (
+          <div>
+            <em>Perrier</em>, Caluire, 1996
+            <br />
+            Photographie couleur
+            <br />
+            Tirage jet d’encre sur bâche Archiva
+            <br />
+            190 x 130cm
           </div>
         ),
       },
@@ -473,6 +524,58 @@ const works = {
             <br />
             <br />
             Collection Centre Pompidou, MNAM, Musée national d’Art moderne
+          </div>
+        ),
+      },
+
+      {
+        url: '108-POIRIER-LOUP-2000.jpg',
+        text: (
+          <div>
+            <em>108 - Poirier-Loup</em>, 2000
+            <br />
+            Photographie analogique
+            <br />
+            Tirage numérique Baryta
+            <br />
+            3 exemplaires
+            <br />
+            100 x 150cm
+            <br />
+            <br />
+            Collection Frac Franche-Comté
+          </div>
+        ),
+      },
+      {
+        url: '113-POIRIER-LOUP-100.jpg',
+        text: (
+          <div>
+            <em>113 - Poirier-Loup</em>, 2000
+            <br />
+            Photographie analogique
+            <br />
+            Tirage numérique Baryta
+            <br />
+            3 exemplaires
+            <br />
+            100 x 150cm
+          </div>
+        ),
+      },
+      {
+        url: '229-LES-ENVERSES-2000.jpg',
+        text: (
+          <div>
+            <em>229 - Les Enverses</em>, 2000
+            <br />
+            Photographie analogique
+            <br />
+            Tirage numérique Baryta
+            <br />
+            3 exemplaires
+            <br />
+            100 x 150cm
           </div>
         ),
       },

@@ -8,7 +8,7 @@ import works from 'works'
 const Lightbox = typeof window !== 'undefined' ? require('react-image-lightbox').default : null
 
 const Content = styled.div`
-  margin: 150px 100px 100px 100px;
+  margin: 150px 50px 50px 50px;
 
   h2 {
     font-size: 15px;
