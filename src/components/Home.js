@@ -14,6 +14,7 @@ const lineHeight = 3
 const linkHeight = 50
 const linkMargin = 20
 
+const WORK_SIZE = 85
 const itemHeight = 150
 
 const growX = keyframes`
@@ -40,10 +41,12 @@ const Container = styled.div`
 
 const Line = styled.div`
   height: 3px;
+  position: relative;
+  margin-top: 200px;
+
   background-color: #3c3c3d;
   animation: ${growX} ${p => (p.instant ? 0 : delayLine)}ms ease-in;
   transform-origin: left;
-  position: relative;
 `
 
 const Category = styled(Link)`
@@ -52,7 +55,7 @@ const Category = styled(Link)`
     p.dir === 'bottom'
       ? linkMargin + lineHeight + linkHeight
       : -linkHeight - linkMargin - itemHeight}px;
-  left: ${p => p.x}%;
+  left: ${p => p.x}px;
 
   ${p => (p.fade ? 'opacity: 0.5;' : '')};
   transition: opacity 250ms ease-in;
@@ -90,7 +93,7 @@ const CategoryContent = styled.div`
 `
 
 @connect(
-  ({ ui: { animateHome } }) => ({ animateHome }),
+  ({ ui: { animateHome } }) => ({ animateHome: false }),
   { disableAnimate },
 )
 class Home extends Component {
@@ -100,6 +103,12 @@ class Home extends Component {
 
   componentDidMount() {
     const { animateHome } = this.props
+
+    window.addEventListener('resize', event => {
+      console.log('eve', event)
+      console.log(event.deltaY)
+    })
+
     if (!animateHome) {
       return
     }
@@ -120,7 +129,7 @@ class Home extends Component {
     const { animateHome } = this.props
     const { activeCategory } = this.state
 
-    const x = Math.clamp((index / worksList.length) * 100, 3, 95)
+    const x = (index + 1) * WORK_SIZE
     const dir = index % 2 ? 'top' : 'bottom'
 
     return (

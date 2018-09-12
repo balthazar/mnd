@@ -113,7 +113,73 @@ const works = {
   mouchoirs: {
     title: 'Mouchoirs',
     date: '1994 / 1996',
-    text: null,
+    text: (
+      <div>
+        <h3>La Révélation ou le goût du blanc</h3>
+        <br />
+        <br />
+        Il n’y a pas si longtemps, le mouchoir était un accessoire intime indispensable. Quand il ne
+        servait pas à recueillir les humeurs, il remplissait de jolies fonctions allusives ou
+        théâtrales, à travers un certain nombre de codes affectifs et sociaux. Ainsi servait-il à
+        dissimuler les larmes ou au contraire à les simuler, à faire appel, à dire adieu. Les femmes
+        l’exhibaient, le laissaient tomber, le tordaient, le mordaient... Il était un moyen de
+        spectacularisation des affects voire un organe de l’hystérie. De batiste ou de coton,
+        l’usage voulait qu’il porte les initiales de son propriétaire. Aussi les jeunes filles
+        brodaient-elles leurs mouchoirs lorsque venait le temps d’apprêter leur trousseau.
+        <br />
+        Renouer avec les gestes de cette tradition désuète impose à l’artiste une pratique
+        solitaire, introvertie et statique. Annette Messager, Rosemarie Trockel ou Gada Amer, s’y
+        sont parmi d’autres livrées, mais dans une perspective féministe qui n’est pas exactement
+        celle de Marie-Noëlle Decoret. Car les circonstances de la vie l’ont obligée un jour à
+        circonscrire son travail à l’espace le plus restreint possible. Les broderies qui s’en
+        suivirent n’avaient d’autre site que celui du symbolique. Une occupation sans lieu
+        privilégié qui prit la forme de poèmes réduits à leur plus courte expression.
+        <br />
+        <br />
+        Marie-Noëlle Decoret a longtemps été peintre. Et le carré du mouchoir rappelle évidemment
+        l’espace pictural. Plus particulièrement, l’espace de l’abstraction, celui du monde sans
+        objets. Paradoxalement, l’artiste a utilisé ces carrés blancs pour rompre avec la peinture.
+        Et l’on retrouve par là un des usages du mouchoir. Si elle ne l’agite pas, elle s’en sert
+        tout de même pour prendre congé. Du tableau, il ne reste qu’une toile vierge à usage
+        domestique. Le souvenir de la peinture persiste, mais à distance. On ne peut s’empêcher de
+        songer toutefois à l’histoire héroïque du monochrome blanc, celle de Malévich, Manzoni,
+        Ryman. Et une convention picturale reste inscrite dans la trame du tissu puisque ses
+        bordures tiennent lieu de cadre, sans autre fonction que décorative.
+        <br />
+        À l’intérieur, apparaissent en lettres cursives un ou plusieurs mots, brodés au point de
+        tige en blanc sur blanc. Il s’agit du b.a.-ba de l’écriture comme de la broderie. Le but est
+        d’emprunter des gestes élémentaires et de maintenir une image à la limite entre apparition
+        et disparition.
+        <br />
+        Considérés isolement ou associés les uns aux autres par séries, ils nomment déjà ce qu’il
+        n’est plus possible aujourd’hui de peindre. Par leur défaut de syntaxe, ils sont
+        parfaitement génériques et polysémiques et constituent un lexique distribué en différents
+        champs sémantiques qui offrent tous une articulation spécifique au support choisi : la
+        disparition (L’Attente), l’émotivité (Ce n’est rien), les clichés infantiles (J’ai peur du
+        noir), la pureté (tout le vocabulaire lié à la blancheur), la dissimulation (la série des
+        mots manquants), l’aveuglement (La Lumière), le meurtre (l’inventaire des poisons végétaux
+        blancs).
+        <br />
+        D’autre part, broder signifie aussi combler un espace discursif vide. Et c’est à nous qu’il
+        appartient de coudre de fil blanc les histoires latentes dans l'intervalle des mots.
+        <br />
+        Ce travail évoque la réserve, la timidité, la neutralité. Ce sont les qualités perdues de la
+        femme idéale. Alors que socialement une telle caractérisation relèverait de l’aliénation,
+        Marie-Noëlle Decoret en a fait le manifeste de sa vie d’artiste. On aura compris que ces
+        mouchoirs ne sont pas innocents.
+      </div>
+    ),
+    textDesc: (
+      <div>
+        <div>Valérie MAVRIDORAKIS — Genève Novembre 1996</div>
+        <br />
+        Extrait du catalogue de l’exposition Marie-Noëlle Décoret,
+        <br />
+        Galerie Georges Verney-Carron, Villeurbanne
+        <br />
+        26 novembre 1996 / 14 février 1997
+      </div>
+    ),
     images: [
       {
         url: '01-MOUCHOIRS-L-MMENSITE.jpg',
@@ -274,6 +340,12 @@ const works = {
         ),
       },
     ],
+  },
+  'portraits-dartistes': {
+    title: "Portraits d'Artistes",
+    date: 1997,
+    text: null,
+    images: [{ url: '01-COLLIN-THIEBAUT-1997.jpg', text: <div /> }],
   },
   tunnels: {
     title: 'Tunnels',
@@ -569,7 +641,7 @@ const works = {
     textDesc: <div>{'Sylvie LAGNIER, Docteure en Histoire de l’art — Lyon, août 2006'}</div>,
     images: [
       {
-        url: '3488-11-BALTHAZAR-GRONON.jpg',
+        url: 'BALTHAZAR-GRONON-3488-11.jpg',
         text: (
           <div>
             <em>Balthazar Gronon</em>, 2003
@@ -583,7 +655,7 @@ const works = {
         ),
       },
       {
-        url: '3654-04-JEANNE-GAILHOUSTET.jpg',
+        url: 'JEANNE-GAILHOUSTET-3654-12.jpg',
         text: (
           <div>
             <em>Jeanne Gailhoustet</em>, 2005
@@ -599,7 +671,7 @@ const works = {
         ),
       },
       {
-        url: '3971-03-YVES-SABOURIN.jpg',
+        url: 'SABOURIN-3971-04.jpg',
         text: (
           <div>
             <em>Yves Sabourin</em>, 2006
@@ -615,7 +687,7 @@ const works = {
         ),
       },
       {
-        url: '5218-09-HENRI-UGHETTO.jpg',
+        url: 'HENRI-UGHETTO-5218-09.jpg',
         text: (
           <div>
             <div>
@@ -634,20 +706,77 @@ const works = {
           </div>
         ),
       },
-
       {
-        url: 'AUTOPORTRAIT-2005.jpg',
+        url: 'MND-7263-09.jpg',
         text: (
           <div>
-            <em>Autoportrait</em>, 2005
+            <em>Autoportrait</em>, 2006
             <br />
-            Photographie analogique couleur
+            7263-09
             <br />
-            Tirage Baryta contrecollé Dibond
+            Photographie analogique
             <br />
-            3 exemplaires
+            Tirage baryté contrecollé
             <br />
-            75 x 50 cm
+            80 x 80 cm
+          </div>
+        ),
+      },
+      {
+        url: 'DOMINIQUE-SUDRE-4273-02.jpg',
+        text: (
+          <div>
+            <em>Dominique Sudre</em>, 2004
+            <br />
+            4273-02
+            <br />
+            Photographie analogique
+            <br />
+            Tirage baryté contrecollé
+            <br />
+            80 x 80 cm
+            <br />
+            <br />
+            Pôle Optique Rhône-Alpes, 2004
+            <br />
+            Saint-Étienne Métropole
+            <br />
+            280 X 280 cm
+          </div>
+        ),
+      },
+      {
+        url: 'FRANCOIS-R-1131-05.jpg',
+        text: (
+          <div>
+            <em>François R.</em> 2004
+            <br />
+            1131-05
+            <br />
+            Photographie analogique
+            <br />
+            Tirage baryté
+            <br />
+            80 x 80cm
+          </div>
+        ),
+      },
+      {
+        url: 'TATOT-2935-03.jpg',
+        text: (
+          <div>
+            <em>Claude-Hubert Tatot</em>, 2004
+            <br />
+            2935-03
+            <br />
+            Photographie analogique
+            <br />
+            <br />
+            Pôle Optique Rhône-Alpes, 2004
+            <br />
+            Saint-Étienne Métropole
+            <br />
+            215 X 220 cm
           </div>
         ),
       },
@@ -875,6 +1004,178 @@ const works = {
             3 exemplaires
             <br />
             50 x 65cm
+          </div>
+        ),
+      },
+    ],
+  },
+  elle: {
+    title: 'Elle...',
+    date: 2003,
+    text: (
+      <div>
+        Par une série de verbes conjugués au présent, classés et rangés un par un sur des feuillets,
+        Marie-Noëlle Décoret pointe les violences de l'évidence : l'être féminin, réduit à sa forme
+        pronominale, est amené doucement vers la négation de toute singularité. Dans cette pièce,
+        chaque verbe, privé de contexte, est dilaté en une forme générique qui décrit une fonction
+        tout en paraissant résumer une existence.
+        <br />
+        <br />
+        Et cette liasse de petites cartes, emmaillotée d'une fourrure de pacotille, semble
+        accueillir l'aporie du féminin d'action, là où s'évanouissent les illusions de dignité et de
+        liberté.
+        <br />
+        <br />
+        Reste à franchir le pas libérateur, celui d'en sourire pour s'en remettre : l'affaire est
+        aussi tragi-comique, et la dérision est tracée par l'artiste elle-même, offrant une échappée
+        d'humour sous la chape des déterminismes.
+      </div>
+    ),
+    textDesc: (
+      <div>
+        <div>{'Françoise Lonardoni Artothèque de Lyon — février 2003'}</div>
+        <br />
+        <div>
+          Édition, 230 exemplaires
+          <br />
+          20 exemplaires signés numérotés de 1 à 20 enrichis d’une aquarelle originale
+          <br />
+          200 exemplaires signés numérotés de 21 à 220
+          <br />
+          10 exemplaires hors commerce notés HC, signés et numérotés de I à X
+        </div>
+      </div>
+    ),
+    images: [
+      { url: 'ELLE-ETUI.jpg', text: <div /> },
+      { url: 'ELLE-EXEMPLAIRE-DE-TETE.jpg', text: <div /> },
+      { url: 'ELLE-SIMPLE.jpg', text: <div /> },
+      {
+        url: 'ELLE-VUE-INSTALLATION-ANNEMASSE-2003.jpg',
+        text: (
+          <div>
+            <em>Elle…</em> 2003
+            <br />
+            Adhésifs
+            <br />
+            Dimensions variables
+            <br />
+            Vue de l’installation pour l’exposition Cartes blanches avec Susanna Fristcher à la
+            Villa du Parc à Annemasse du 21 mars au 17 mai 2003
+          </div>
+        ),
+      },
+    ],
+  },
+  traces: {
+    title: 'Traces',
+    date: 2006,
+    text: (
+      <div>
+        Prises de vue réalisées dans la salle de lecture et les cellules d’un hôpital psychiatrique
+        désaffecté, autrefois tenu par une communauté religieuse.
+        <br />
+        Poussières de temps, les revues et livres de la salle de lecture comme les radiateurs des
+        cellules ont laissé leur empreinte, noirci les murs.
+        <br />
+        <br />
+        Traces des objets, de leur immobilisme, des rayonnages disparus autrefois support
+        d’information, de lecture, de transmission. Traces du tableau noir, de l’horloge.
+        <br />
+        Traces des radiateurs dont les supports rappellent l’homme, l’humain.
+        <br />
+        Traces du temps suspendu, de la chaleur domestique fixée à la peinture, accrochée au mur
+        comme un film, une pellicule de fumée.
+      </div>
+    ),
+    images: [
+      {
+        url: 'CELLULE-0-1205-01.jpg',
+        text: (
+          <div>
+            <em>Cellule 0</em>, 2006
+            <br />
+            #1205-01
+            <br />
+            Centre hospitalier
+            <br />
+            Photographie couleur analogique
+            <br />
+            Tirage numérique sur papier Lumière
+            <br />
+            75 x 50 cm
+          </div>
+        ),
+      },
+      {
+        url: 'CELLULE-8-1205-12.jpg',
+        text: (
+          <div>
+            <em>Cellule 8</em>, 2006
+            <br />
+            #1205-12
+            <br />
+            Centre hospitalier
+            <br />
+            Photographie couleur analogique
+            <br />
+            Tirage numérique sur papier Lumière
+            <br />
+            75 x 50 cm
+          </div>
+        ),
+      },
+      {
+        url: 'SALLE-DE-LECTURE-1205-07.jpg',
+        text: (
+          <div>
+            <em>Salle de lecture</em>, 2006
+            <br />
+            #1205-07
+            <br />
+            Centre hospitalier
+            <br />
+            Photographie couleur analogique
+            <br />
+            Tirage numérique sur papier Lumière
+            <br />
+            100 x 150cm
+          </div>
+        ),
+      },
+      {
+        url: 'SALLE-DE-LECTURE-1205-08.jpg',
+        text: (
+          <div>
+            <em>Salle de lecture</em>, 2006
+            <br />
+            #1205-08
+            <br />
+            Centre hospitalier
+            <br />
+            Photographie couleur analogique
+            <br />
+            Tirage numérique sur papier Lumière
+            <br />
+            100 x 150cm
+          </div>
+        ),
+      },
+      {
+        url: 'SALLE-DE-LECTURE-1205-15.jpg',
+        text: (
+          <div>
+            <em>Salle de lecture</em>, 2006
+            <br />
+            #1205-15
+            <br />
+            Centre hospitalier
+            <br />
+            Photographie couleur analogique
+            <br />
+            Tirage numérique sur papier Lumière
+            <br />
+            100 x 150cm
           </div>
         ),
       },
@@ -1155,18 +1456,23 @@ const works = {
     date: '2016 / ...',
     text: (
       <div>
-        <em>
-          « Ô Mère, qui créas en ton sein juste et fort Calices balançant la future fiole De grandes
-          fleurs avec la balsamique Mort Pour le poète las que la vie étiole ».
-        </em>
+        « […]
+        <br />
+        Ô Mère, qui créas en ton sein juste et fort
+        <br />
+        Calices balançant la future fiole
+        <br />
+        De grandes fleurs avec la balsamique Mort
+        <br />
+        Pour le poète las que la vie étiole  ».
         <br />
         <br />
-        Extrait du poème <em>Les fleurs</em> de Stéphane Mallarmé
+        — Extrait du poème Les fleurs de Stéphane Mallarmé
         <br />
         <br />
         En prévision de l’exposition à la MAC de Pérouges avec Elisabeth Gilbert Dragic en 2016,
         Marie-Noëlle Décoret a photographié des fleurs coupées en phases d'abandon d'où sont issus
-        ses Portraits fanés.
+        ses <em>Portraits fanés</em>.
       </div>
     ),
     images: [
