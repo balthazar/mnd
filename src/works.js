@@ -281,6 +281,8 @@ const works = {
     date: '1995 / ...',
     text: (
       <div>
+        <h3>La Révélation ou le goût du blanc</h3>
+        <br />
         Marie-Noëlle Decoret est un rien têtue : voici qu’elle revient à la peinture, mais à travers
         le thème de l’aveuglement. Déjà, certains mouchoirs portaient des inscriptions en braille.
         Comme si la lumière avait fini par suspendre la vue au profit du toucher. Avec les dessins
@@ -312,7 +314,19 @@ const works = {
         sur les pages blanches de Marie-Noëlle Decoret.
       </div>
     ),
-    textDesc: <div>{'Valérie MAVRIDORAKIS — Genève, Novembre 1996'}</div>,
+    textDesc: (
+      <div>
+        Valérie MAVRIDORAKIS
+        <br />
+        — Genève, Novembre 1996
+        <br />
+        <br />
+        Extrait du catalogue de l’exposition Marie-Noëlle Décoret, Galerie Georges Verney-Carron,
+        Villeurbanne
+        <br />
+        26 novembre 1996 - 14 février 1997
+      </div>
+    ),
     images: [
       {
         url: 'SER-01-RAPHAEL-ELYMAS.jpg',
@@ -621,29 +635,46 @@ const works = {
     date: '2000',
     text: (
       <div>
-        Graver son patronyme dans le marbre d'une des balustrades de la chapelle de son école c'est,
-        sans forcement en avoir pleinement conscience, tenter de lutter contre l'oubli. De 1703 à
-        1940 nombre d'élèves ont perpétué ce rite pourtant interdit. Leurs outils : clous ou pointes
-        de compas sont rudimentaires et scolaires. L'écriture est griffée ou profonde, la lettre
-        souvent capitale. Certains réitèrent l'exercice, d'autres le datent. Si Baudelaire ou Bichat
-        également élèves des Jésuites, ont inscrit autrement leurs noms dans l'histoire, ceux que la
-        postérité n'a pas retenus doivent à Marie-Noëlle Décoret de sortir de l'oubli. Par un
-        minutieux travail de frottage à la mine de plomb, elle fait apparaître leur nom à la surface
-        d'un fin papier calque. Encadrées et accrochées au mur ces traces se trouvent doublement
-        relevées et exposées.
+        <h3>
+          REGARDER DU TEMPS
+          <br />
+          MEMENTO DES VIVANTS
+        </h3>
         <br />
-        Le noir de la mine de plomb est dense, brillant comme le marbre. Le coup de crayon plus ou
-        moins régulier enregistre les gravures plus ou moins profondes, les veines du marbre, les
-        accidents et les altérations du temps. Au geste instinctif et mordant des élèves,
-        Marie-Noëlle Décoret oppose celui patient et doux de l'estampage. Le relevé exhaustif ne
-        privilégie personne, il rend compte d'un ensemble et d'une durée.
+        Entre tant de tentatives de l’homme de se survivre à lui-même, en est-il de plus universelle
+        et de plus simple que la tentation de graver son nom quelque part ? Face à la “ mort
+        ennemie, contre laquelle la langue s’épuise à blasphémer “, il faut se rassurer en
+        inscrivant nos sentiments fragiles et nos existences éphémères sur quelque support qui nous
+        paraisse plus solide que nous – le chêne pour les amoureux, la pierre de leur chapelle pour
+        les élèves du collège de la Trinité. Mais n’est-ce pas là qu’une illusion supplémentaire ?
+        Et avons-nous sous les yeux autre chose qu’une litre funéraire, cette bande sombre que l’on
+        peignait, lors des deuils illustres, dans les chapelles seigneuriales ?
         <br />
         <br />
-        Une fois de plus et tout en restant fidèle à sa démarche Marie-Noëlle Décoret révèle et met
-        au jour ce que nous n'aurions pu voir sans elle.
+        Non pas. Sous la main de Marie-Noëlle Décoret, qui les a patiemment relevés, puis sous nos
+        yeux, des noms resurgissent: Aimon, Daubonne, Campredon, de la Porte. Et pas seulement des
+        noms; avec eux, presque des visages – ce petit matin froid où l’on gelait dans la chapelle,
+        cette amitié qui ne pouvait pas ne pas se dire – Dethorame, Pazery, fratres, 1733; le petit
+        crissement de la pointe du couteau sur la pierre, et le tintement de la clochette de
+        l’élévation. Memento, Domine, famulorum famularumque tu arum… Les collégiens qui
+        s’ennuyaient pendant la messe entraient dans l’éternité, sans le savoir. Comme nous,
+        peut-être ?
       </div>
     ),
-    textDesc: <div>{'Claude-Hubert Tatot — Genève, juin 2005'}</div>,
+    textDesc: (
+      <div>
+        Bruno Martin
+        <br />
+        Septembre 2005
+        <br />
+        <br />
+        Exposition du 13 septembre au 21 octobre 2005
+        <br />
+        Institution des Chartreux, Lyon
+        <br />
+        En résonance avec la Biennale d’art contemporain de Lyon Expérience de la durée
+      </div>
+    ),
     images: [
       {
         url: 'TRINITE-V-21-2000.jpg',
@@ -925,11 +956,16 @@ const works = {
     date: '2002 / 2012',
     text: (
       <div>
-        […] la dernière série que Marie-Noëlle Décoret expose à la Ferme du Vinatier intitulée
-        Chambres d’isolement est composée de vingt-six photographies fonctionnant en binôme. Il
-        s’agit de prises de vue de treize chambres, faites au sein d’hôpitaux psychiatriques. À
-        chaque fois et de manière systématique, l’artiste a fait deux prises de vue par chambre, une
-        axée sur le lit, l’autre sur la porte.
+        <h3>Camera Mentale</h3>
+        <br />
+        […]
+        <br />
+        Cette rigueur quasi monacale se retrouve dans la dernière série que Marie-Noëlle Décoret
+        expose à la Ferme du Vinatier. Intitulée, Chambres d’isolement, elle est composée de
+        vingt-six photographies fonctionnant en binôme. Il s’agit de prises de vue de treize
+        chambres, faites au sein d’hôpitaux psychiatriques. À chaque fois et de manière
+        systématique, l’artiste a fait deux prises de vue par chambre, une axée sur le lit, l’autre
+        sur la porte.
         <br />
         <br />
         Afin de ne laisser nulle place à un choix approximatif voire sentimental, toutes sont
@@ -937,8 +973,11 @@ const works = {
         Cette discipline du point du vue lui permet d’évacuer tout pathos et de laisser place à
         l’architecture de l’espace, la force prégnante des lignes horizontales et verticales, les
         nuances de couleurs, les détails infimes de la structure. “ Dans les chambres d’isolement,
-        il y a un dénuement extrême. Pour moi la photographie est toujours associée à ces espaces
-        clos où le corps se construit, se fond ou résiste “.
+        il y a un dénuement extrême.
+        <br />
+        <br />
+        Pour moi la photographie est toujours associée à ces espaces clos où le corps se construit,
+        se fond ou résiste “.
         <br />
         <br />
         Des tunnels au couvent de la Tourette il semble bien que Marie-Noëlle Décoret met en scène
@@ -970,20 +1009,36 @@ const works = {
         omniprésente ; on est allongé, couché, dans une situation d’attente “.
         <br />
         <br />
-        … La démarche de Marie-Noëlle Décoret n’a rien du reportage. Pas de pathos, de
-        démonstration, de valeur morale, de jugement. Juste la grande simplicité des lignes, le
-        dépouillement total de l’image. Et contrairement à ce que l’on pourrait penser c’est de
-        cette extrême nudité que se crée l’émotion. Là encore la référence à la peinture est très
-        présente. Les vues des lits font écho au tableau de Mantegna et de son Christ si
-        curieusement allongé et disposé dans le cadre. Là aussi la lumière va créer des accidents
-        infimes de couleur, de transparence de matière, se faire miroir et reflet. La codification
-        de la prise de vue systématique fait penser au nombre d’or dont les peintres ont longtemps
-        aimé la secrète arithmétique. C’est toujours sur la rigueur que Marie-Noëlle Décoret
-        s’appuie, comme si la beauté et l’émotion qui échappaient de ces photographies n’étaient
-        qu’involontaires.
+        Des chambres de soins intensifs, des chambres d’isolement ou d’apaisement, elle photographie
+        les différences, des portes en particulier. Portes qui se lisent comme des cadres à
+        l’intérieur même de l’image qui s’ornent de poignée ou non ; portes toujours dotées d’oculus
+        destinés à surveiller mais qui ouvrent aussi à la présence de l’extérieur, de l’ailleurs.
+        <br />
+        <br />
+        La démarche de Marie-Noëlle Décoret n’a rien du reportage. Pas de pathos, de démonstration,
+        de valeur morale, de jugement. Juste la grande simplicité des lignes, le dépouillement total
+        de l’image. Et contrairement à ce que l’on pourrait penser c’est de cette extrême nudité que
+        se crée l’émotion. Là encore la référence à la peinture est très présente. Les vues des lits
+        font écho au tableau de Mantegna et de son Christ si curieusement allongé et disposé dans le
+        cadre. Là aussi la lumière va créer des accidents infimes de couleur, de transparence de
+        matière, se faire miroir et reflet. La codification de la prise de vue systématique fait
+        penser au nombre d’or dont les peintres ont longtemps aimé la secrète arithmétique. C’est
+        toujours sur la rigueur que Marie-Noëlle Décoret s’appuie, comme si la beauté et l’émotion
+        qui échappaient de ces photographies n’étaient qu’involontaires.
       </div>
     ),
-    textDesc: <div>{'Hauviette Bethemont — Septembre 2012'}</div>,
+    textDesc: (
+      <div>
+        Hauviette Bethemont
+        <br />
+        — Septembre 2012
+        <br />
+        <br />
+        Exposition de Marie-Noëlle Décoret, <em>Chambres d’Isolement</em>
+        <br />
+        La Ferme du Vinatier, 10 octobre – 7 décembre 2012
+      </div>
+    ),
     images: [
       {
         url: 'CHAMBRE-1-LIT.jpg',
@@ -1324,6 +1379,8 @@ const works = {
     date: 2006,
     text: (
       <div>
+        <h3>Un drôle de Carnaval</h3>
+        <br />
         Quel drôle de carnaval que le carnaval de Marie-Noëlle Décoret ! On la connaissait pour des
         images plus sobres, plus sombres aussi, comme pétrifiées: on pense à ces bateaux qu’on
         dirait calcinés qu’elle a photographiés à leur sortie d’un fleuve où ils dormaient depuis
@@ -1384,7 +1441,20 @@ const works = {
         de ferveur et d’angoisse, qu’une photographe, leur amie, a su immortaliser.
       </div>
     ),
-    textDesc: <div>{'Pierre-Jean Rémy, de l’Académie française — Octobre 2006'}</div>,
+    textDesc: (
+      <div>
+        Pierre-Jean Rémy, de l’Académie française
+        <br />
+        — Octobre 2006
+        <br />
+        <br />
+        Catalogue de l’exposition de Marie-Noëlle DÉCORET
+        <br />
+        <em>Portraits déguisés, Portraits réfléchis</em>
+        <br />
+        Galerie Le Manège, Institut culturel français, Dakar, du 10 au 29 novembre 2006
+      </div>
+    ),
     images: [
       {
         url: '18-03-SHEHERAZADE.jpg',
@@ -1466,6 +1536,55 @@ const works = {
           </div>
         ),
       },
+
+      {
+        url: '19-12-EL-HADJ-3.jpg',
+        text: (
+          <div>
+            <em>El Hadj 3</em>, Dakar 2006
+            <br />
+            Photographie analogique
+            <br />
+            Tirage baryté
+            <br />
+            3 exemplaires
+            <br />
+            40 x 40cm
+          </div>
+        ),
+      },
+      {
+        url: '20-04-MARIEE-EN-PRIERE.jpg',
+        text: (
+          <div>
+            <em>Mariée en prière</em>, Dakar 2006
+            <br />
+            Photographie analogique
+            <br />
+            Tirage baryté
+            <br />
+            3 exemplaires
+            <br />
+            40 x 40cm
+          </div>
+        ),
+      },
+      {
+        url: '20-09-INDIEN.jpg',
+        text: (
+          <div>
+            <em>Indien</em>, Dakar 2006
+            <br />
+            Photographie analogique
+            <br />
+            Tirage baryté
+            <br />
+            3 exemplaires
+            <br />
+            40 x 40cm
+          </div>
+        ),
+      },
     ],
   },
   'tourette-corbusier': {
@@ -1473,37 +1592,43 @@ const works = {
     date: '2006 / 2014',
     text: (
       <div>
-        Travaillant sur les lieux de retrait construits par l’homme et pour l’homme et dans la
-        continuité de certaines réalisations photographiques telles que les Tunnels ou les Chambres
-        d’isolement vidées de présence, j’ai entrepris de photographier les cellules du couvent de
-        La Tourette, durant une année au moment des solstices et des équinoxes, à la même heure
-        solaire.
+        <h3>Du visible et du seuil à l’invisible perte</h3>
+        <br />
+        « La pratique du lieu dans l’œuvre de Marie-Noëlle Décoret se caractérise par deux notions,
+        l’espace et le corps, questionnées à l’aune du vide qui les compose ; des lieux,
+        précise-t-elle « construits par l’homme et pour l’homme ». Ses travaux photographiques
+        interrogent la proximité des liens entretenus par le vivant en se saisissant du vide comme
+        matériau, c’est-à-dire l’espace d’un volume architecturé dans lequel l’air et la lumière
+        interviennent pour définir le lieu. La série des photographies prises au couvent de la
+        Tourette en 2006, les jours des solstices et des équinoxes, en renouvelle la perception... »
+        […]
+      </div>
+    ),
+    textDesc: (
+      <div>
+        Sylvie Lagnier
+        <br />
+        Lyon, juillet 2007
+        <br />
+        Extrait du catalogue À distance
         <br />
         <br />
-        J’ai saisi ces espaces d’étude frontalement, l’objectif sur l’extérieur, faisant s’ouvrir le
-        minéral de l’architecture au végétal de la nature. J’ai aussi capté la surface horizontale
-        de la table, élément fort de la cellule. D’autres prises de vue ont été réalisées à la
-        bibliothèque : importance de l’étude, acquisition du savoir, transmission.
+        Catalogue de l’exposition Marie-Noëlle Décoret, À distance
+        <br />
+        Couvent de La Tourette - Le Corbusier, 6 septembre - 30 novembre 2007
         <br />
         <br />
-        S’en suivent des images individuelles ou des suites d’images qui inscrivent dans la durée
-        l’empreinte, l’esprit d’un lieu.
-        <br />
-        <br />
-        <b>
-          L’édition À distance accompagne l’exposition de l’automne 2007 au couvent de La TOURETTE.
-          Textes Camille FALLEN / Jean-Luc NANCY et Sylvie LAGNIER.
-        </b>
+        Le travail s’est renouvelé en 2014 à la fin des travaux de restauration du couvent.
       </div>
     ),
     images: [
       {
-        url: 'TOURETTE-DEC-2014-CELL-11-0844-04.jpg',
+        url: 'TOURETTE-DEC-2014-CELL-55-0841-02.jpg',
         text: (
           <div>
             Couvent de La Tourette
             <br />
-            <em>Cellule 11</em>, 21 décembre 2014
+            <em>Cellule 55</em>, 21 décembre 2014
             <br />
             Photographie analogique
             <br />
@@ -1534,16 +1659,34 @@ const works = {
         ),
       },
       {
-        url: 'TOURETTE-DEC-2014-CELL-55-0841-02.jpg',
+        url: 'TOURETTE-DEC-2014-CELL-11-0844-04.jpg',
         text: (
           <div>
             Couvent de La Tourette
             <br />
-            <em>Cellule 55</em>, 21 décembre 2014
+            <em>Cellule 11</em>, 21 décembre 2014
             <br />
             Photographie analogique
             <br />
             Tirage Lumière contrecollé sur alu Dibond
+            <br />
+            3 exemplaires
+            <br />
+            100 x 150cm
+          </div>
+        ),
+      },
+      {
+        url: 'TOURETTE-DEC-2014-100-MUR-55-0841-18.jpg',
+        text: (
+          <div>
+            Couvent de La Tourette - Le Corbusier
+            <br />
+            <em>Cellule 55, mur</em>, 21 Décembre 2014
+            <br />
+            Photographie analogique
+            <br />
+            Tirage Fine art contrecollé sur alu Dibond
             <br />
             3 exemplaires
             <br />
@@ -1557,11 +1700,29 @@ const works = {
           <div>
             Couvent de La Tourette
             <br />
-            <em>Cellule 55, Table</em>, 20 mars 2014
+            <em>Cellule 55, Table</em>, 20 Mars 2014
             <br />
             Photographie analogique
             <br />
             Tirage Lumière contrecollé sur alu Dibond
+            <br />
+            3 exemplaires
+            <br />
+            100 x 150cm
+          </div>
+        ),
+      },
+      {
+        url: 'TOURETTE-MARS-2014-100-TABLE-11-0374-18.jpg',
+        text: (
+          <div>
+            Couvent de La Tourette - Le Corbusier
+            <br />
+            <em>Cellule 11, Table</em>, 20 Mars 2014
+            <br />
+            Photographie analogique
+            <br />
+            Tirage Fine art contrecollé sur alu Dibond
             <br />
             3 exemplaires
             <br />
@@ -1580,6 +1741,24 @@ const works = {
             Photographie analogique
             <br />
             Tirage Lumière contrecollé sur alu Dibond
+            <br />
+            3 exemplaires
+            <br />
+            100 x 150cm
+          </div>
+        ),
+      },
+      {
+        url: 'BIBLIOTHEQUE-2014-100-BIBLIO-2484-14.jpg',
+        text: (
+          <div>
+            Couvent de La Tourette - Le Corbusier
+            <br />
+            <em>Bibliothèque, Théologie dogmatique</em>, 2014
+            <br />
+            Photographie analogique
+            <br />
+            Tirage Fine art contrecollé sur alu Dibond
             <br />
             3 exemplaires
             <br />
