@@ -283,12 +283,12 @@ const works = {
       <div>
         <h3>La Révélation ou le goût du blanc</h3>
         <br />
-        Marie-Noëlle Decoret est un rien têtue : voici qu’elle revient à la peinture, mais à travers
-        le thème de l’aveuglement. Déjà, certains mouchoirs portaient des inscriptions en braille.
-        Comme si la lumière avait fini par suspendre la vue au profit du toucher. Avec les dessins
-        blancs sur papier blanc, la peinture est vidée de sa substance. Plus de couleurs, un tracé
-        presque imperceptible, sauf à trouver l’angle sous lequel la lumière viendra effleurer le
-        papier et révéler la figure. Cela contraint à regarder l’oeuvre de biais. Comme les
+        [...] Marie-Noëlle Decoret est un rien têtue : voici qu’elle revient à la peinture, mais à
+        travers le thème de l’aveuglement. Déjà, certains mouchoirs portaient des inscriptions en
+        braille. Comme si la lumière avait fini par suspendre la vue au profit du toucher. Avec les
+        dessins blancs sur papier blanc, la peinture est vidée de sa substance. Plus de couleurs, un
+        tracé presque imperceptible, sauf à trouver l’angle sous lequel la lumière viendra effleurer
+        le papier et révéler la figure. Cela contraint à regarder l’oeuvre de biais. Comme les
         malvoyants recherchent la moindre variation de luminosité dans leur pénombre. Sauf qu’ici,
         c’est la blancheur qui perturbe notre perception. Sur le lourd papier immaculé, l’artiste a
         recyclé toute une iconographie de la cécité : Les Aveugles de Brueghel ou de Coypel, Tobie
@@ -1886,25 +1886,222 @@ const works = {
     date: '2016 / ...',
     text: null,
     images: [
-      { url: 'BOURGEOIS-LOUISE-1-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'BROODTHAERS-MARCEL-1-24X18-MNDECORET.jpg', text: <div /> },
-      { url: 'CRANACH-LUCAS-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'ENSOR-JAMES-24X18-MNDECORET.jpg', text: <div /> },
-      { url: 'GIACOMETTI-ALBERTO-3-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'KAHLO-FRIDA-2-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'KLOSSOWSKI-PIERRE-3-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'SAINT-PHALLE de-NIKI-1-24X18-MNDECORET.jpg', text: <div /> },
-      { url: 'TINGUELY-JEAN-1-24x18-MNDECORET.jpg', text: <div /> },
-      { url: 'ARBUS-L1210964-RET-REC.jpg', text: <div /> },
-      { url: 'ARP-L1210962-RET-REC.jpg', text: <div /> },
-      { url: 'BACON-L1210963-RET-REC.jpg', text: <div /> },
-      { url: 'BEUYS-L1210961-RET-REC.jpg', text: <div /> },
-      { url: 'BOETTI-L1210958-RET-REC.jpg', text: <div /> },
-      { url: 'BOURGEOIS-LOUISE-L1210960-RET-REC.jpg', text: <div /> },
-      { url: 'BRANCUSI-L121095-RET-REC.jpg', text: <div /> },
-      { url: 'BROODTHAERS-L1210965-RET-REC.jpg', text: <div /> },
-      { url: 'BURKHARD-L1210967-RET-REC.jpg', text: <div /> },
-      { url: 'CALDER-L1210966-RET-REC.jpg', text: <div /> },
+      {
+        url: 'BOURGEOIS-LOUISE-1-24x18-MNDECORET.jpg',
+        text: (
+          <div>
+            <em>Louise Bourgeois</em>, 2016
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'BROODTHAERS-MARCEL-1-24X18-MNDECORET.jpg',
+        text: (
+          <div>
+            <em>Marcel Broodthaers</em>, 2016
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'CRANACH-LUCAS-24x18-MNDECORET.jpg',
+        text: (
+          <div>
+            <em>Lucas Cranach</em>, 2016
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'ENSOR-JAMES-24X18-MNDECORET.jpg',
+        text: (
+          <div>
+            <em>James Ensor</em>, 2016
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'GIACOMETTI-ALBERTO-3-24x18-MNDECORET.jpg',
+        text: (
+          <div>
+            <em>Alberto Giacometti</em>, 2016
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'KAHLO-FRIDA-2-24x18-MNDECORET.jpg',
+        text: (
+          <div>
+            <em>Frida Kahlo</em>, 2016
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'KLOSSOWSKI-PIERRE-3-24x18-MNDECORET.jpg',
+        text: (
+          <div>
+            <em>Pierre Klossowski</em>, 2016
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'SAINT-PHALLE de-NIKI-1-24X18-MNDECORET.jpg',
+        text: (
+          <div>
+            <em>Niki de Saint-Phalle</em>, 2016
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'TINGUELY-JEAN-1-24x18-MNDECORET.jpg',
+        text: (
+          <div>
+            <em>Jean Tinguely</em>, 2016
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'ARBUS-L1210964-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Diane Arbus</em>, 2018
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'ARP-L1210962-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Hans Arp</em>, 2018
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'BEUYS-L1210961-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Joseph Beuys</em>, 2018
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'BOETTI-L1210958-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Alighiero e Boetti</em>, 2018
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'BOURGEOIS-LOUISE-L1210960-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Louise Bourgeois</em>, 2018
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'BRANCUSI-L121095-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Constantin Brancusi</em>, 2018
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'BROODTHAERS-L1210965-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Marcel Broodthaers</em>, 2018
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'BURKHARD-L1210967-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Balthasar Burkhard</em>, 2018
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
+      {
+        url: 'CALDER-L1210966-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Alexander Calder</em>, 2018
+            <br />
+            Sang dilué aquarellé sur papier pur chiffon
+            <br />
+            24 x 18cm
+          </div>
+        ),
+      },
     ],
   },
 }
