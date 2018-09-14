@@ -42,7 +42,13 @@ const works = {
       <div>
         <div>{'Claude-Hubert Tatot — Genève, Février 2002'}</div>
         <br />
-        {'Exposition Villa du Parc, Annemasse (21 mars – 17 mai 2003)'}
+        Exposition <em>Cartes blanches</em>, Marie-Noëlle Décoret, Susanna Fritscher
+        <br />
+        Du 22 mars au 17 mai 2003
+        <br />
+        Villa du Parc – Centre d’art contemporain
+        <br />
+        12, rue de Genève – Annemasse
       </div>
     ),
     images: [
@@ -281,8 +287,6 @@ const works = {
     date: '1995 / ...',
     text: (
       <div>
-        <h3>La Révélation ou le goût du blanc</h3>
-        <br />
         [...] Marie-Noëlle Decoret est un rien têtue : voici qu’elle revient à la peinture, mais à
         travers le thème de l’aveuglement. Déjà, certains mouchoirs portaient des inscriptions en
         braille. Comme si la lumière avait fini par suspendre la vue au profit du toucher. Avec les
@@ -316,13 +320,16 @@ const works = {
     ),
     textDesc: (
       <div>
+        La Révélation ou le goût du blanc
+        <br />
         Valérie MAVRIDORAKIS
         <br />
         — Genève, Novembre 1996
         <br />
         <br />
-        Extrait du catalogue de l’exposition Marie-Noëlle Décoret, Galerie Georges Verney-Carron,
-        Villeurbanne
+        Extrait du catalogue de l’exposition Marie-Noëlle Décoret
+        <br />
+        Galerie Georges Verney-Carron, Villeurbanne
         <br />
         26 novembre 1996 - 14 février 1997
       </div>
@@ -424,10 +431,33 @@ const works = {
         <br />
         <br />
         Trace ténue de notre rencontre à un instant donné, une ligne rappelle le geste, l’empreinte,
-        le passage. L’être là.
+        le passage.
+        <br />
+        L’être là.
         <br />
         <br />
         L’ensemble forme collection.
+      </div>
+    ),
+    textDesc: (
+      <div>
+        Exposition Marie-Noëlle Décoret
+        <br />
+        Nouveau Palais de Justice
+        <br />
+        67, rue Servient Lyon 3ème
+        <br />
+        15 octobre – 31 décembre 1998
+        <br />
+        <br />
+        Édition <em>Portraits d’artistes</em>
+        <br />
+        500 exemplaires signés numérotés
+        <br />
+        <br />
+        <a href="/assets/portraits-dartistes/LISTE-PORTRAITS-D-ARTISTES-SELECTION.pdf">
+          Voir liste
+        </a>
       </div>
     ),
     images: [
@@ -478,8 +508,11 @@ const works = {
         <br />
         <br />
         <b>
-          Ce travail a reçu le soutien de la Caisse des dépôts en 2001 Trois épreuves figurent dans
-          la collection du Centre Pompidou, Musée National d’Art Moderne – MNAM
+          Ce travail a reçu le soutien de la Caisse des dépôts en 2001
+          <br />
+          Trois épreuves figurent dans la collection du
+          <br />
+          Centre Pompidou, Musée National d’Art Moderne – MNAM
         </b>
       </div>
     ),
@@ -576,26 +609,6 @@ const works = {
           </div>
         ),
       },
-
-      {
-        url: '108-POIRIER-LOUP-2000.jpg',
-        text: (
-          <div>
-            <em>108 - Poirier-Loup</em>, 2000
-            <br />
-            Photographie analogique
-            <br />
-            Tirage numérique Baryta
-            <br />
-            3 exemplaires
-            <br />
-            100 x 150cm
-            <br />
-            <br />
-            Collection Frac Franche-Comté
-          </div>
-        ),
-      },
       {
         url: '113-POIRIER-LOUP-100.jpg',
         text: (
@@ -625,6 +638,25 @@ const works = {
             3 exemplaires
             <br />
             100 x 150cm
+          </div>
+        ),
+      },
+      {
+        url: '145-CHAMPALOUX-2000.jpg',
+        text: (
+          <div>
+            <em>145 - Champaloux</em>, 2000
+            <br />
+            Photographie analogique
+            <br />
+            Tirage numérique Baryta
+            <br />
+            3 exemplaires
+            <br />
+            100 x 150cm
+            <br />
+            <br />
+            Collection Frac Franche-Comté
           </div>
         ),
       },
@@ -731,83 +763,30 @@ const works = {
         photographique que le statut du flou que ces Portraits réfléchis ou Portraits au verre
         remettent en question.
         <br />
-        <br />
-        <h4>Des portraits à rebours</h4>
-        <br />
-        Dès ses débuts, ce qui définit la photographie fut sa capacité à restituer l’image des êtres
-        et des choses. La nature mécanique du dispositif séduisit par son apparente neutralité
-        permettant de fixer le reflet authentique, l’image véritable du sujet. La netteté et la
-        précision ont dès lors, été considérées comme les qualités élémentaires du médium. Au cours
-        du XXe siècle, les artistes photographes ont non seulement remis en cause sa prétendue
-        neutralité, mais aussi ont montré que la photographie était un processus. En ce sens, la
-        photographie n’est pas seulement un reflet des objets, c’est une reconstruction de la
-        réalité, un rapport dialogique entre les choses, la composition et l’esthétique, ainsi que
-        l’a précisé André Rouillé. La réalité ne se réduit donc pas au visible et c’est sur ce point
-        que quantité de photographes ont échoué – notamment en matière de portraits – convaincus que
-        ce médium œuvrant sans artifice, leur permettrait de révéler la nature intime de leur sujet.
-        Or, ce qui a souvent piégé le portrait photographique c’est que le sujet n’est plus qu’un
-        modèle de ressemblance. La question du portrait, quel que soit d’ailleurs le médium utilisé,
-        tourne autour d’une difficulté précise qui est celle de l’identité, un enjeu que les
-        Portraits réfléchis de Marie-Noëlle Décoret relèvent en désignant non pas la ressemblance,
-        mais la différence. Selon le philosophe Jean-Marie Pontévia, ce qui fait la qualité d’un
-        portrait, c’est « l’imitation de l’inimitable : autrement dit la ressemblance ne peut se
-        donner à lire que comme différence ». Dans l’œuvre de Marie-Noëlle Décoret, le portrait
-        n’est pas un sujet en soi, il s’inscrit dans un processus qui interroge la façon dont la
-        réalité est vue. Ce sont des portraits « à rebours » dans lesquels l’artiste détourne la
-        vocation du genre et relativise la relation entre photographie et souvenir. Ils ne
-        signifient ni l’absence, ni le souvenir, ni même un « contre-souvenir » selon la pensée de
-        Barthes, car « l’objet » photographié n’a qu’une existence minimale par sa ténuité, par la
-        disparition de sa carnation. L’œil est ici prééminent parce que c’est lui qui engloutit les
-        formes, estompe leurs contours, ne laissant du réel que sa trace évanescente ; un évidement
-        référentiel qui fait du portrait, l’incarnation visuelle de la photographie.
-        <br />
-        <br />
-        <h4>La vision mise en scène</h4>
-        <br />
-        La lisibilité des traces intègre un système de sens auquel nous conduit la marge
-        d’illisible. Ainsi, le flou ne suggère pas une image plus claire ou plus précise, le flou
-        est ici ce que l’artiste nous donne à voir. En tant qu’images troubles, les clichés de
-        l’artiste pourraient être qualifiés de « non-photographiques » en raison des fantasmes qu’a
-        engendrés la photographie comme lieu de crise de l’image, ce rapport conflictuel entre le
-        réel et le construit, le voir et le dire. L’image n’est donc pas floue, c’est le spectateur
-        qui n’arrive pas à faire la mise au point. Le flou est moins un choix esthétique que sujet.
-        Le portrait est en fin de compte le prétexte qui permet à l’artiste de mettre en scène la
-        vision elle-même, d’en interroger non seulement son usage, mais aussi ce qui nous rend
-        partiellement aveugle dans la perception du réel. La totalité du monde visible n’est pas
-        vue, non pas parce qu’une partie n’apparaît pas, mais parce que cette partie n’a de réalité
-        que si nous modifions notre attention optique. En premier lieu, la perception tombe sur
-        l’impossible à percevoir, une stratégie qui insiste par ailleurs sur la limite de la
-        représentation et nous pousse à chercher l’imperceptible au-delà de notre propre vision.
-        <br />
-        <br />
-        Si l’immobilité contient le flou, le « brouillage » de l’image rend perceptibles les effets
-        de la vitesse dans la structure de la photographie. Cet effet n’est pas seulement d’ordre
-        optique. Il relève non seulement des choix artistiques et esthétiques de l’artiste, mais
-        aussi du rapport de l’œuvre à l’espace. Si le cadrage centre fréquemment le sujet, l’angle
-        de la prise de vue évite une réelle frontalité parfois subtilement, un léger décalage
-        latéral, en plongée ou en contre-plongée ; un choix qui permet à l’artiste d’attester de la
-        présence du corps, c’est-à-dire de son volume. L’ombre et la lumière jouent ainsi pleinement
-        leur rôle suggestif de la spatialité tout en participant à la conception d’une présence plus
-        spirituelle que charnelle œuvrant ainsi à une reconstruction fantasmatique du réel. Cet
-        aspect est encore plus sensible dans les portraits réalisés en noir et blanc. Leur dimension
-        spectrale, qu’accroît le contraste ou la luminosité, confère à cette série un statut
-        différent, d’une nature à la fois plus intime et intemporelle. Les portraits en couleur,
-        répartis dans les bâtiments du Pôle Optique, agissent différemment. Situés dans des lieux de
-        passage ou d’études, ces portraits, notamment en raison de leur format (jusqu’à 3 m x 4, 50
-        m) et de leur situation spatiale – du sol au plafond en faisant corps avec le mur –
-        entraînent la vision dans une matière quasi picturale et dans un champ proche de
-        l’abstraction. C’est seulement la distanciation du corps par rapport à l’image qui
-        permettrait à la figure d’apparaître selon la norme visuelle, nette.
-        <br />
-        <br />
-        Les Portraits réfléchis participent, dans l’œuvre de Marie-Noëlle Décoret, d’une esthétique
-        de la rupture. Rupture visuelle entre l’intention et la forme plastique, rupture
-        référentielle entre l’objet et le sujet, rupture esthétique entre mimésis et différence, des
-        œuvres qui jouent ainsi des discontinuités. Et dans ce théâtre d’ombres chinoises, la myopie
-        se dévoile telle une métaphore de notre vision déformée de la réalité.
+        […]
       </div>
     ),
-    textDesc: <div>{'Sylvie LAGNIER, Docteure en Histoire de l’art — Lyon, août 2006'}</div>,
+    textDesc: (
+      <div>
+        Sylvie LAGNIER, Docteure en Histoire de l’art
+        <br />
+        Lyon, août 2006
+        <br />
+        <br />
+        Commande publique, œuvre monumentale, 2004
+        <br />
+        Pôle Optique Rhône-Alpes, Saint-Étienne Métropole
+        <br />
+        <br />
+        Édition
+        <br />
+        Marie-Noëlle Décoret <em>Portraits réfléchis, Histoire de voir</em>
+        <br />
+        Sylvie Lagnier, Yves Sabourin
+        <br />
+        Édition Lieux-Dits, juin 2007 ISBN 978-2-914528-34-4
+      </div>
+    ),
     images: [
       {
         url: 'BALTHAZAR-GRONON-3488-11.jpg',
@@ -1226,23 +1205,60 @@ const works = {
     ),
     textDesc: (
       <div>
-        <div>{'Françoise Lonardoni Artothèque de Lyon — février 2003'}</div>
+        Françoise Lonardoni
         <br />
-        <div>
-          Édition, 230 exemplaires
-          <br />
-          20 exemplaires signés numérotés de 1 à 20 enrichis d’une aquarelle originale
-          <br />
-          200 exemplaires signés numérotés de 21 à 220
-          <br />
-          10 exemplaires hors commerce notés HC, signés et numérotés de I à X
-        </div>
+        Artothèque de Lyon, février 2003
+        <br />
+        <br />
+        Édition, 230 exemplaires
+        <br />
+        20 exemplaires signés numérotés de 1 à 20 enrichis d’une aquarelle originale
+        <br />
+        200 exemplaires signés numérotés de 21 à 220
+        <br />
+        10 exemplaires hors commerce notés HC, signés et numérotés de I à X
       </div>
     ),
     images: [
-      { url: 'ELLE-ETUI.jpg', text: <div /> },
-      { url: 'ELLE-EXEMPLAIRE-DE-TETE.jpg', text: <div /> },
-      { url: 'ELLE-SIMPLE.jpg', text: <div /> },
+      {
+        url: 'ELLE-ETUI.jpg',
+        text: (
+          <div>
+            <em>Elle…</em> 2003
+            <br />
+            Édition d’artiste
+            <br />
+            200 exemplaires signés numérotés de 21 à 220
+            <br />
+            Présentation de l’édition
+          </div>
+        ),
+      },
+      {
+        url: 'ELLE-EXEMPLAIRE-DE-TETE.jpg',
+        text: (
+          <div>
+            <em>Elle…</em> 2003
+            <br />
+            Édition d’artiste
+            <br />
+            20 exemplaires de tête
+            <br />
+            Signés numérotés de 1 à 20 enrichis d’une aquarelle originale
+          </div>
+        ),
+      },
+      {
+        url: 'ELLE-SIMPLE.jpg',
+        text: (
+          <div>
+            <em>Elle…</em> 2003 Édition d’artiste
+            <br />
+            200 exemplaires signés numérotés de 21 à 220
+            <br />
+          </div>
+        ),
+      },
       {
         url: 'ELLE-VUE-INSTALLATION-ANNEMASSE-2003.jpg',
         text: (
@@ -1253,8 +1269,16 @@ const works = {
             <br />
             Dimensions variables
             <br />
-            Vue de l’installation pour l’exposition Cartes blanches avec Susanna Fristcher à la
-            Villa du Parc à Annemasse du 21 mars au 17 mai 2003
+            <br />
+            Vue de l’installation
+            <br />
+            Exposition <em>Cartes blanches</em>, Marie-Noëlle Décoret, Susanna Fritscher
+            <br />
+            Du 22 mars au 17 mai 2003
+            <br />
+            Villa du Parc – Centre d’art contemporain
+            <br />
+            12, rue de Genève – Annemasse
           </div>
         ),
       },
@@ -1588,7 +1612,7 @@ const works = {
     ],
   },
   'tourette-corbusier': {
-    title: 'La Tourette - Corbusier',
+    title: 'La Tourette - Le Corbusier',
     date: '2006 / 2014',
     text: (
       <div>
@@ -1610,12 +1634,16 @@ const works = {
         <br />
         Lyon, juillet 2007
         <br />
-        Extrait du catalogue À distance
+        Extrait du catalogue <em>À distance</em>
         <br />
         <br />
-        Catalogue de l’exposition Marie-Noëlle Décoret, À distance
+        Catalogue de l’exposition Marie-Noëlle Décoret, <em>À distance</em>
         <br />
-        Couvent de La Tourette - Le Corbusier, 6 septembre - 30 novembre 2007
+        Couvent de La Tourette - Le Corbusier
+        <br />
+        6 septembre - 30 novembre 2007
+        <br />
+        Camille FALLEN / Jean-Luc NANCY, <em>Au lieu</em>
         <br />
         <br />
         Le travail s’est renouvelé en 2014 à la fin des travaux de restauration du couvent.
@@ -1792,6 +1820,19 @@ const works = {
         ses <em>Portraits fanés</em>.
       </div>
     ),
+    textDesc: (
+      <div>
+        <br />
+        <br />
+        Exposition <em>Rose… Still Life</em>,
+        <br />
+        Marie-Noëlle Décoret, Elisabeth Gilbert Dragic
+        <br />
+        MAC de Pérouges
+        <br />
+        3 septembre – 2 octobre 2016
+      </div>
+    ),
     images: [
       {
         url: 'BOUQUET-1531-02.jpg',
@@ -1879,6 +1920,61 @@ const works = {
           </div>
         ),
       },
+
+      {
+        url: 'DAHLIA-ROSE-L1150744-2016.jpg',
+        text: (
+          <div>
+            <em>Dahlia rose, 115-744</em>, 2016
+            <br />
+            Photographie numérique
+            <br />
+            Tirage Lumière contrecollé sur alu Dibond
+            <br />
+            3 exemplaires
+            <br />
+            45 x 60 cm
+          </div>
+        ),
+      },
+      {
+        url: 'DALHIA-BLANC-1532-16-2016.jpg',
+        text: (
+          <div>
+            <em>Dalhia blanc, 1532-16</em>, 2016
+            <br />
+            Photographie analogique
+            <br />
+            Tirage Lumière contrecollé sur alu Dibond
+            <br />
+            3 exemplaires
+            <br />
+            100 x 150cm
+            <br />
+            <br />
+            Dimensions plus importantes sur demande.
+          </div>
+        ),
+      },
+      {
+        url: 'TULIPES-1533-13-2016.jpg',
+        text: (
+          <div>
+            <em>Tulipes, 1533-13</em>, 2016
+            <br />
+            Photographie analogique
+            <br />
+            Tirage Lumière contrecollé sur alu Dibond
+            <br />
+            3 exemplaires
+            <br />
+            100 x 150cm
+            <br />
+            <br />
+            Dimensions plus importantes sur demande.
+          </div>
+        ),
+      },
     ],
   },
   'portraits-sanguins': {
@@ -1887,7 +1983,7 @@ const works = {
     text: null,
     images: [
       {
-        url: 'BOURGEOIS-LOUISE-1-24x18-MNDECORET.jpg',
+        url: 'BOURGEOIS-LOUISE-2016-24x18.jpg',
         text: (
           <div>
             <em>Louise Bourgeois</em>, 2016
@@ -1899,7 +1995,7 @@ const works = {
         ),
       },
       {
-        url: 'BROODTHAERS-MARCEL-1-24X18-MNDECORET.jpg',
+        url: 'BROODTHAERS-MARCEL-2016-24X18.jpg',
         text: (
           <div>
             <em>Marcel Broodthaers</em>, 2016
@@ -1911,7 +2007,7 @@ const works = {
         ),
       },
       {
-        url: 'CRANACH-LUCAS-24x18-MNDECORET.jpg',
+        url: 'CRANACH-LUCAS-2016-24x18.jpg',
         text: (
           <div>
             <em>Lucas Cranach</em>, 2016
@@ -1923,7 +2019,7 @@ const works = {
         ),
       },
       {
-        url: 'ENSOR-JAMES-24X18-MNDECORET.jpg',
+        url: 'ENSOR-JAMES-2016-24X18.jpg',
         text: (
           <div>
             <em>James Ensor</em>, 2016
@@ -1935,7 +2031,7 @@ const works = {
         ),
       },
       {
-        url: 'GIACOMETTI-ALBERTO-3-24x18-MNDECORET.jpg',
+        url: 'GIACOMETTI-ALBERTO-2016-24x18.jpg',
         text: (
           <div>
             <em>Alberto Giacometti</em>, 2016
@@ -1947,7 +2043,7 @@ const works = {
         ),
       },
       {
-        url: 'KAHLO-FRIDA-2-24x18-MNDECORET.jpg',
+        url: 'KAHLO-FRIDA-2-2016-24x18.jpg',
         text: (
           <div>
             <em>Frida Kahlo</em>, 2016
@@ -1959,7 +2055,7 @@ const works = {
         ),
       },
       {
-        url: 'KLOSSOWSKI-PIERRE-3-24x18-MNDECORET.jpg',
+        url: 'KLOSSOWSKI-PIERRE-2016-24x18.jpg',
         text: (
           <div>
             <em>Pierre Klossowski</em>, 2016
@@ -1971,7 +2067,7 @@ const works = {
         ),
       },
       {
-        url: 'SAINT-PHALLE de-NIKI-1-24X18-MNDECORET.jpg',
+        url: 'SAINT-PHALLE de-NIKI-2016-24X18.jpg',
         text: (
           <div>
             <em>Niki de Saint-Phalle</em>, 2016
@@ -1983,7 +2079,7 @@ const works = {
         ),
       },
       {
-        url: 'TINGUELY-JEAN-1-24x18-MNDECORET.jpg',
+        url: 'TINGUELY-JEAN-2016-24x18.jpg',
         text: (
           <div>
             <em>Jean Tinguely</em>, 2016
@@ -1995,7 +2091,7 @@ const works = {
         ),
       },
       {
-        url: 'ARBUS-L1210964-RET-REC.jpg',
+        url: 'ARBUS-L1210964-2018-24x18.jpg',
         text: (
           <div>
             <em>Diane Arbus</em>, 2018
@@ -2007,7 +2103,7 @@ const works = {
         ),
       },
       {
-        url: 'ARP-L1210962-RET-REC.jpg',
+        url: 'ARP-L1210962-2018-24x18.jpg',
         text: (
           <div>
             <em>Hans Arp</em>, 2018
@@ -2019,7 +2115,7 @@ const works = {
         ),
       },
       {
-        url: 'BEUYS-L1210961-RET-REC.jpg',
+        url: 'BEUYS-L1210961-2018-24x18.jpg',
         text: (
           <div>
             <em>Joseph Beuys</em>, 2018
@@ -2031,7 +2127,7 @@ const works = {
         ),
       },
       {
-        url: 'BOETTI-L1210958-RET-REC.jpg',
+        url: 'BOETTI-L1210958-2018-24x18.jpg',
         text: (
           <div>
             <em>Alighiero e Boetti</em>, 2018
@@ -2043,7 +2139,7 @@ const works = {
         ),
       },
       {
-        url: 'BOURGEOIS-LOUISE-L1210960-RET-REC.jpg',
+        url: 'BOURGEOIS-LOUISE-L1210960-2018-24x18.jpg',
         text: (
           <div>
             <em>Louise Bourgeois</em>, 2018
@@ -2055,7 +2151,7 @@ const works = {
         ),
       },
       {
-        url: 'BRANCUSI-L121095-RET-REC.jpg',
+        url: 'BRANCUSI-L121095-2018-24x18.jpg',
         text: (
           <div>
             <em>Constantin Brancusi</em>, 2018
@@ -2067,7 +2163,7 @@ const works = {
         ),
       },
       {
-        url: 'BROODTHAERS-L1210965-RET-REC.jpg',
+        url: 'BROODTHAERS-L1210965-2018-24x18.jpg',
         text: (
           <div>
             <em>Marcel Broodthaers</em>, 2018
@@ -2079,7 +2175,7 @@ const works = {
         ),
       },
       {
-        url: 'BURKHARD-L1210967-RET-REC.jpg',
+        url: 'BURKHARD-L1210967-2018-24x18.jpg',
         text: (
           <div>
             <em>Balthasar Burkhard</em>, 2018
@@ -2091,7 +2187,7 @@ const works = {
         ),
       },
       {
-        url: 'CALDER-L1210966-RET-REC.jpg',
+        url: 'CALDER-L1210966-2018-24x18.jpg',
         text: (
           <div>
             <em>Alexander Calder</em>, 2018
