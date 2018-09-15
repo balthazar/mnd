@@ -24,10 +24,6 @@ const Container = styled.div`
       }
     }
 
-    > a:last-child {
-      margin-left: auto;
-    }
-
     > * + * {
       margin-left: 20px;
     }
@@ -36,14 +32,13 @@ const Container = styled.div`
 
 class Header extends Component {
   render() {
-    const { pathname } = this.props
-
     return (
       <Container>
         <h1>{'Marie-Noëlle Décoret'}</h1>
         <div>
           <Link to="/">{'HOME'}</Link>
           <Link to="/bio">{'BIOGRAPHY'}</Link>
+          <Link to="/texts">{'TEXTS'}</Link>
           <a href="https://www.centrepompidou.fr/cpv/resource/cEnpL9/rnpdar" target="_blank">
             <img src="/assets/pompidou.ico" width={20} />
           </a>
