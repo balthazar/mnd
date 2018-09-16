@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import breakpoint from 'styled-components-breakpoint'
 
 import Header from 'components/Header'
 
@@ -21,6 +22,16 @@ const Content = styled.div`
 
 const Main = styled.div`
   display: flex;
+
+  ${breakpoint('mobile', 'tablet')`
+    flex-direction: column-reverse;
+
+    > div:first-child {
+      margin-top: 20px;
+    }
+  `};
+
+  ${breakpoint('tablet')`
   > div {
     flex: 1;
     width: 0;
@@ -29,6 +40,7 @@ const Main = styled.div`
   > * + * {
     margin-left: 40px;
   }
+  `};
 `
 
 const TextDesc = styled.div`
@@ -73,7 +85,6 @@ class Work extends Component {
                 work.images[(selected + work.images.length - 1) % work.images.length].url
               }`}
               imageCaption={work.images[selected].text}
-              imagePadding={110}
               onCloseRequest={() => this.setState({ selected: null })}
               onMovePrevRequest={() =>
                 this.setState({
