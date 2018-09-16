@@ -90,9 +90,6 @@ const texts = {
       En 2014 elle débute les <em>Portraits fanés</em> et les <em>Portraits sanguins</em> en 2016.
       Ces deux séries sont présentées à l’automne de cette même année à la MAC de Pérouges¹⁸.
       <br />
-      <br />
-      Cette même année, elle commence la série <em>Portraits sanguins</em>.
-      <br />
       Marie-Noëlle DÉCORET intervient ponctuellement en milieu scolaire. Ses œuvres figurent dans
       les collections du FNAC, Fonds National d’Art Contemporain, du Centre Pompidou, MNAM, Musée
       National d’Art Moderne, de la Bibliothèque Nationale, de la SACEM, du Frac Franche-Comté, de
@@ -121,17 +118,17 @@ const texts = {
         7 <em>Histoire de voir, Portraits réfléchis</em>, Édition. Textes Sylvie Lagnier, Yves
         Sabourin, éditions Lieux Ditsi/ Saint-Étienne Métropole, 2007.
         <br />
-        8 <em>Cartes blanches</em>, avec Susanna Fritscher, Villa du Parc, Annemasse.{' '}
-        <em>Elle expose</em>, texte Claude-Hubert Tatot.
+        8 <em>Cartes blanches</em>, avec Susanna Fritscher, Villa du Parc, Annemasse.
         <br />
-        Édition <em>Elle…</em> 230 exemplaires. <em>Elle expose…</em>, texte Claude-Hubert Tatot,
-        www.Plumart.com n° 53 mai 2003.
+        Édition <em>Elle…</em> 230 exemplaires.
+        <br />
+        <em>Elle Expose</em>, texte Claude-Hubert Tatot, www.plumart.com n° 53 mai 2003.
         <br />
         9 <em>Les Bateaux de Saint-Georges</em>, portfolio, texte Pierre-Jean Rémy, de l’Académie
         française, Lyon Parc Auto, 50 ex.
         <br />
         10 <em>Paris à Shanghai, trois générations de photographes français</em>, édition Actes Sud,
-        Arles, Jean-Luc Monterosso, SophieiSchmit, 2005.
+        Arles, Jean-Luc Monterosso, Sophie Schmit, 2005.
         <br />
         11 <em>Memento des vivants</em>, Bruno Martin ; <em>Regarder du temps</em>, Claude-Hubert
         Tatot.
@@ -140,14 +137,14 @@ const texts = {
         l’Académie française et Sylvie Lagnier, Galerie Le Manège, Institut Léopold Sédar Senghor,
         Dakar, Sénégal, 2006.
         <br />
-        13 <em>À distance</em>, catalogue, textes Sylvie Lagnier ; Camille Fallen / Jean-Luc Nancy,
+        13 <em>À distance</em>, catalogue, textes Sylvie Lagnier ; Camille Fallen / Jean-Luc Nancy,
         éditions de La Tourette – Le Corbusier, 2007.
         <br />
         14 <em>Anima, Animalia</em>, 15ème biennale de la céramique, Couvent des Cordeliers,
         Chateauroux.
         <em>9o’</em>, Frac Franche-Comté, Saline royale d’Arc-et-Senans, 2009.
         <br />
-        15 elles@centrepompidou, juin 2009 – février 2011.
+        15 <em>elles@centrepompidou</em>, juin 2009 – février 2011.
         <br />
         16 <em>Blanche est la couleur</em>, Hommage à Thomas Gleb, Yves Sabourin, Passage de Retz,
         Paris.

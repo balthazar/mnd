@@ -65,7 +65,7 @@ const list = [
     url: 'TATOT-SHOWROOM-MANZONI-DETAILS-1998.pdf',
   },
   {
-    info: 'Au Lieu - Fallen / Nancy',
+    info: 'Au Lieu - Camille Fallen / Jean-Luc Nancy',
     url: 'FALLEN-NANCY-DETAILS-2007.pdf',
   },
   {
@@ -85,7 +85,7 @@ const list = [
     url: 'LAGNIER-ENTRETIEN-2004-DETAILS.pdf',
   },
   {
-    info: 'Projet Filigranes - MND',
+    info: 'Projet Filigranes - M.-N. D. / VALÉRIE MAVRIDORAKIS',
     url: 'PROJET-FILIGRANES-ROME-1995-MND.pdf',
   },
   {
@@ -93,7 +93,7 @@ const list = [
     url: 'REMY-PORTRAITS-DEGUISES-2006-DETAILS.pdf',
   },
   {
-    info: 'Les bateaux de Saint-Georges - Pierre-Jean RÉMY, de l’Académie française',
+    info: 'Les Bateaux de Saint-Georges - Pierre-Jean RÉMY, de l’Académie française',
     url: 'REMY-BATEAUX-2004-DETAILS.pdf',
   },
   {
@@ -101,7 +101,7 @@ const list = [
     url: 'LONARDONI-ELLE-2003.pdf',
   },
   {
-    info: 'Memento des vivants - Bruno Martin',
+    info: 'Memento des Vivants - Bruno Martin',
     url: 'MARTIN-RELEVES-TRINITÉ-2005-DETAILS.pdf',
   },
   {
@@ -109,11 +109,11 @@ const list = [
     url: 'TATOT-RELEVES-TRINITÉ-2005.pdf',
   },
   {
-    info: 'Ta mère à poil devant Prisunic - Claude-Hubert Tatot',
+    info: 'Ta Mère à poil devant Prisunic - Claude-Hubert Tatot',
     url: 'TATOT-AFFICHES-DETAILS-2002.pdf',
   },
   {
-    info: 'Elle expose - Claude-Hubert Tatot',
+    info: 'Elle Expose - Claude-Hubert Tatot',
     url: 'TATOT-ELLE-EXPOSE-PLUMART-2003.pdf',
   },
 ]
