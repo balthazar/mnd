@@ -81,7 +81,7 @@ const list = [
     url: 'LONARDONI-ELLE-2003.pdf',
   },
   {
-    info: 'MEMENTO DES VIVANTS - Bruno Martin',
+    info: 'Memento des vivants - Bruno Martin',
     url: 'MARTIN-RELEVES-TRINITÉ-2005-DETAILS.pdf',
   },
   {
@@ -93,11 +93,11 @@ const list = [
     url: 'PROJET-FILIGRANES-ROME-1995-MND.pdf',
   },
   {
-    info: 'Les bateaux de Saint-Georges - Pierre-Jean RÉMY',
+    info: 'Les bateaux de Saint-Georges - Pierre-Jean RÉMY de l’Académie française',
     url: 'REMY-BATEAUX-2004-DETAILS.pdf',
   },
   {
-    info: 'Un drôle de Carnaval - Pierre-Jean RÉMY',
+    info: 'Un drôle de Carnaval - Pierre-Jean RÉMY de l’Académie française',
     url: 'REMY-PORTRAITS-DEGUISES-2006-DETAILS.pdf',
   },
   {
