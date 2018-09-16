@@ -53,28 +53,48 @@ const Text = styled.a`
 
 const list = [
   {
-    info: 'Cabine - Arrzel Marcinkowski',
-    url: 'ARRZEL-MARCINKOWSKI-DETAILS-2004.pdf',
-  },
-  {
-    info: 'Au Lieu - Fallen / Nancy',
-    url: 'FALLEN-NANCY-DETAILS-2007.pdf',
+    info: 'La Révélation ou le goût du blanc - Valérie MAVRIDORAKIS',
+    url: 'MAVRIDORIAKIS-VERNEY-CARRON-1996-DETAILS.pdf',
   },
   {
     info: 'Camera Mentale - Hauviette Bethemont',
     url: 'H-BETHEMONT-CAMERA-MENTALE-2012-DETAILS.pdf',
   },
   {
-    info: 'Entretien - Sylvie Lagnier',
-    url: 'LAGNIER-ENTRETIEN-2004-DETAILS.pdf',
+    info: 'Dérober au, Fouiller, explorer du, Jeter un, Mettre en. - Claude-Hubert Tatot',
+    url: 'TATOT-SHOWROOM-MANZONI-DETAILS-1998.pdf',
+  },
+  {
+    info: 'Au Lieu - Fallen / Nancy',
+    url: 'FALLEN-NANCY-DETAILS-2007.pdf',
+  },
+  {
+    info: 'Du Visible et du seuil à l’invisible perte - Sylvie Lagnier',
+    url: 'LAGNIER-TOURETTE-2007-DETAILS.pdf',
   },
   {
     info: 'Les Portraits réfléchis, une esthétique de la rupture - Sylvie Lagnier',
     url: 'LAGNIER-PORTRAITS-REFLECHIS-2004-DETAILS.pdf',
   },
   {
-    info: 'Du visible et du seuil à l’invisible perte - Sylvie Lagnier',
-    url: 'LAGNIER-TOURETTE-2007-DETAILS.pdf',
+    info: 'Voir l’Histoire de voir de Marie-Noëlle Décoret - Yves Sabourin',
+    url: 'SABOURIN-VOIR-LHISTOIRE-2006-DETAILS.pdf',
+  },
+  {
+    info: 'Entretien - Sylvie Lagnier',
+    url: 'LAGNIER-ENTRETIEN-2004-DETAILS.pdf',
+  },
+  {
+    info: 'Projet Filigranes - MND',
+    url: 'PROJET-FILIGRANES-ROME-1995-MND.pdf',
+  },
+  {
+    info: 'Un drôle de Carnaval - Pierre-Jean RÉMY, de l’Académie française',
+    url: 'REMY-PORTRAITS-DEGUISES-2006-DETAILS.pdf',
+  },
+  {
+    info: 'Les bateaux de Saint-Georges - Pierre-Jean RÉMY, de l’Académie française',
+    url: 'REMY-BATEAUX-2004-DETAILS.pdf',
   },
   {
     info: 'Elle... - Françoise Lonardoni',
@@ -85,24 +105,8 @@ const list = [
     url: 'MARTIN-RELEVES-TRINITÉ-2005-DETAILS.pdf',
   },
   {
-    info: 'La Révélation ou le goût du blanc - Valérie MAVRIDORAKIS',
-    url: 'MAVRIDORIAKIS-VERNEY-CARRON-1996-DETAILS.pdf',
-  },
-  {
-    info: 'Projet Filigranes - MND',
-    url: 'PROJET-FILIGRANES-ROME-1995-MND.pdf',
-  },
-  {
-    info: 'Les bateaux de Saint-Georges - Pierre-Jean RÉMY de l’Académie française',
-    url: 'REMY-BATEAUX-2004-DETAILS.pdf',
-  },
-  {
-    info: 'Un drôle de Carnaval - Pierre-Jean RÉMY de l’Académie française',
-    url: 'REMY-PORTRAITS-DEGUISES-2006-DETAILS.pdf',
-  },
-  {
-    info: 'Voir l’Histoire de voir de Marie-Noëlle Décoret - Yves Sabourin',
-    url: 'SABOURIN-VOIR-LHISTOIRE-2006-DETAILS.pdf',
+    info: 'Relever du Temps - Claude-Hubert Tatot',
+    url: 'TATOT-RELEVES-TRINITÉ-2005.pdf',
   },
   {
     info: 'Ta mère à poil devant Prisunic - Claude-Hubert Tatot',
@@ -111,14 +115,6 @@ const list = [
   {
     info: 'Elle expose - Claude-Hubert Tatot',
     url: 'TATOT-ELLE-EXPOSE-PLUMART-2003.pdf',
-  },
-  {
-    info: 'Relever du Temps - Claude-Hubert Tatot',
-    url: 'TATOT-RELEVES-TRINITÉ-2005.pdf',
-  },
-  {
-    info: 'Dérober au, Fouiller, explorer du, Jeter un, Mettre en. - Claude-Hubert Tatot',
-    url: 'TATOT-SHOWROOM-MANZONI-DETAILS-1998.pdf',
   },
 ]
 

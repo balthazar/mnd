@@ -739,7 +739,7 @@ const works = {
     ],
   },
   'portraits-reflechis': {
-    title: 'Portraits Réflechis',
+    title: 'Portraits Réfléchis',
     date: '2002 / ...',
     text: (
       <div>
@@ -1399,7 +1399,7 @@ const works = {
     ],
   },
   'portraits-deguises': {
-    title: 'Portraits Deguises',
+    title: 'Portraits Déguisés',
     date: 2006,
     text: (
       <div>
@@ -1612,7 +1612,7 @@ const works = {
     ],
   },
   'tourette-corbusier': {
-    title: 'La Tourette - Le Corbusier',
+    title: 'Couvent de La Tourette',
     date: '2006 / 2014',
     text: (
       <div>
@@ -1797,7 +1797,7 @@ const works = {
     ],
   },
   'portraits-fanes': {
-    title: 'Portraits Fanes',
+    title: 'Portraits Fanés',
     date: '2016 / ...',
     text: (
       <div>
@@ -1809,7 +1809,7 @@ const works = {
         <br />
         De grandes fleurs avec la balsamique Mort
         <br />
-        Pour le poète las que la vie étiole  ».
+        Pour le poète las que la vie étiole ».
         <br />
         <br />
         — Extrait du poème Les fleurs de Stéphane Mallarmé

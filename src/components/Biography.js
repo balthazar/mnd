@@ -87,72 +87,76 @@ const texts = {
       photographies <em>Chambres d’isolement</em>¹⁷.
       <br />
       <br />
-      En 2014 elle débute ses <em>Portraits fanés</em> en vue de l’exposition à la MAC de Pérouges
-      en 2016¹⁸.
+      En 2014 elle débute les <em>Portraits fanés</em> et les <em>Portraits sanguins</em> en 2016.
+      Ces deux séries sont présentées à l’automne de cette même année à la MAC de Pérouges¹⁸.
       <br />
       <br />
       Cette même année, elle commence la série <em>Portraits sanguins</em>.
       <br />
       Marie-Noëlle DÉCORET intervient ponctuellement en milieu scolaire. Ses œuvres figurent dans
-      les collections de l’artothèque et de la Ville de Lyon, du Frac Franche-Comté, de la SACEM, la
-      Bibliothèque Nationale, le FNAC, Fonds National d’Art Contemporain et le Centre Pompidou,
-      MNAM, Musée National d’Art Moderne.
+      les collections du FNAC, Fonds National d’Art Contemporain, du Centre Pompidou, MNAM, Musée
+      National d’Art Moderne, de la Bibliothèque Nationale, de la SACEM, du Frac Franche-Comté, de
+      l’artothèque et de la Ville de Lyon.
       <br />
       <br />
       <br />
       <Legend>
-        1 Silencieuse, catalogue, entretien avec Yannick Miloux, Chartreuse de Sainte-Croix en
-        Jarez, Frac Rhône-Alpes,1996.
+        1 <em>Silencieuse</em>, catalogue, entretien avec Yannick Miloux, Chartreuse de Sainte-Croix
+        en Jarez, Frac Rhône-Alpes,1996.
         <br />
-        2 La Révélation ou le goût du blanc, catalogue, Valérie Mavridorakis, galerie Georges
-        Verney-Carron, 1996-1997.
+        2 <em>La Révélation ou le goût du blanc</em>, catalogue, Valérie Mavridorakis, galerie
+        Georges Verney-Carron, 1996-1997.
         <br />
-        3 Showroom Manzoni, Genève. Dérober au… Texte Claude-Hubert Tatot, Papiers Libres n°15,
-        décembre 1998.
+        3 Showroom Manzoni, Genève. <em>Dérober au…</em> Texte Claude-Hubert Tatot, Papiers Libres
+        n°15, décembre 1998.
         <br />
-        4 Immanence, fil d’or, guipure et crête d’or, FNAC, Fonds national d’art contemporain
+        4 <em>Immanence</em>, fil d’or, guipure et crête d’or, FNAC, Fonds national d’art
+        contemporain
         <br />
-        5 Les Peintres de la vie moderne, donation Caisse des Dépôts et Consignations, Centre
-        Pompidou, 2006.
+        5 <em>Les Peintres de la vie moderne</em>, donation Caisse des Dépôts et Consignations,
+        Centre Pompidou, 2006.
         <br />
-        6 L’Arrière-pays, Installation sonore, Fiacre, Drac Rhône-Alpes.
+        6 <em>L’Arrière-pays</em>, Installation sonore, Fiacre, Drac Rhône-Alpes.
         <br />
-        7 Histoire de voir, Portraits réfléchis, Édition. Textes Sylvie Lagnier, Yves Sabourin,
-        éditions Lieux Ditsi/ Saint-Étienne Métropole, 2007.
+        7 <em>Histoire de voir, Portraits réfléchis</em>, Édition. Textes Sylvie Lagnier, Yves
+        Sabourin, éditions Lieux Ditsi/ Saint-Étienne Métropole, 2007.
         <br />
-        8 Cartes blanches, avec Susanna Fritscher, Villa du Parc, Annemasse. Elle expose, texte
-        Claude-Hubert Tatot.
+        8 <em>Cartes blanches</em>, avec Susanna Fritscher, Villa du Parc, Annemasse.{' '}
+        <em>Elle expose</em>, texte Claude-Hubert Tatot.
         <br />
-        Édition Elle… 230 exemplaires. Elle expose…, texte Claude-Hubert Tatot, www.Plumart.com n°
-        53 mai 2003.
+        Édition <em>Elle…</em> 230 exemplaires. <em>Elle expose…</em>, texte Claude-Hubert Tatot,
+        www.Plumart.com n° 53 mai 2003.
         <br />
-        9 Les Bateaux de Saint-Georges, portfolio, texte Pierre-Jean Rémy, de l’Académie française,
-        Lyon Parc Auto, 50 ex.
+        9 <em>Les Bateaux de Saint-Georges</em>, portfolio, texte Pierre-Jean Rémy, de l’Académie
+        française, Lyon Parc Auto, 50 ex.
         <br />
-        10 Paris à Shanghai, trois générations de photographes français, édition Actes Sud, Arles,
-        Jean-Luc Monterosso, SophieiSchmit, 2005.
+        10 <em>Paris à Shanghai, trois générations de photographes français</em>, édition Actes Sud,
+        Arles, Jean-Luc Monterosso, SophieiSchmit, 2005.
         <br />
-        11 Memento des vivants, Bruno Martin ; Regarder du temps, Claude-Hubert Tatot.
+        11 <em>Memento des vivants</em>, Bruno Martin ; <em>Regarder du temps</em>, Claude-Hubert
+        Tatot.
         <br />
-        12 Portraits déguisés, Portraits réfléchis, catalogue, textes Pierre-Jean Rémy, de
+        12 <em>Portraits déguisés, Portraits réfléchis</em>, catalogue, textes Pierre-Jean Rémy, de
         l’Académie française et Sylvie Lagnier, Galerie Le Manège, Institut Léopold Sédar Senghor,
         Dakar, Sénégal, 2006.
         <br />
-        13 À distance, catalogue, textes Sylvie Lagnier ; Camille Fallen / Jean-Luc Nancy, éditions
-        de La Tourette – Le Corbusier, 2007.
+        13 <em>À distance</em>, catalogue, textes Sylvie Lagnier ; Camille Fallen / Jean-Luc Nancy,
+        éditions de La Tourette – Le Corbusier, 2007.
         <br />
-        14 Anima, Animalia, 15ème biennale de la céramique, Couvent des Cordeliers, Chateauroux.
-        9o’, Frac Franche-Comté, Saline royale d’Arc-et-Senans, 2009.
+        14 <em>Anima, Animalia</em>, 15ème biennale de la céramique, Couvent des Cordeliers,
+        Chateauroux.
+        <em>9o’</em>, Frac Franche-Comté, Saline royale d’Arc-et-Senans, 2009.
         <br />
         15 elles@centrepompidou, juin 2009 – février 2011.
         <br />
-        16 Blanche est la couleur, Hommage à Thomas Gleb, Yves Sabourin, Passage de Retz, Paris.
-        Sacré blanc !, Hommage à Thomas Gleb, Yves Sabourin, Musée d’Angers, 2012.
+        16 <em>Blanche est la couleur</em>, Hommage à Thomas Gleb, Yves Sabourin, Passage de Retz,
+        Paris.
+        <em>Sacré blanc !</em>, Hommage à Thomas Gleb, Yves Sabourin, Musée d’Angers, 2012.
         <br />
-        17 Chambres d’isolement, La Ferme, CHU Le Vinatier, Culture et Hôpital, texte Hauviette
-        Bethemont, 2012.
+        17 <em>Chambres d’isolement</em>, La Ferme, CHU Le Vinatier, Culture et Hôpital, texte
+        Hauviette Bethemont, 2012.
         <br />
-        18 Rose… Still Life, avec Elisabeth Gilbert Dragic, Mac de Pérouges, 2016.
+        18 <em>Rose… Still Life</em>, avec Elisabeth Gilbert Dragic, Mac de Pérouges, 2016.
       </Legend>
     </div>
   ),
