@@ -58,7 +58,7 @@ const works = {
           <div>
             <em>Energie</em>, Naples, 1996
             <br />
-            Photographie couleur
+            Photographie analogique
             <br />
             Tirage jet d’encre sur bâche Archiva
             <br />
@@ -72,7 +72,7 @@ const works = {
           <div>
             <em>Fiorucci</em>, Rome, 1995
             <br />
-            Photographie couleur
+            Photographie analogique
             <br />
             Tirage jet d’encre sur bâche Archiva
             <br />
@@ -86,7 +86,7 @@ const works = {
           <div>
             <em>Pino Moncada</em>, Rome, 1995
             <br />
-            Photographie couleur
+            Photographie analogique
             <br />
             Tirage jet d’encre sur bâche Archiva
             <br />
@@ -100,7 +100,7 @@ const works = {
           <div>
             <em>Cesare Paciotti</em>, Cinecitta, 1995
             <br />
-            Photographie couleur
+            Photographie analogique
             <br />
             Tirage jet d’encre sur bâche Archiva
             <br />
@@ -115,7 +115,7 @@ const works = {
           <div>
             <em>IP</em>, Rome, 1995
             <br />
-            Photographie couleur
+            Photographie analogique
             <br />
             Tirage jet d’encre sur bâche Archiva
             <br />
@@ -129,7 +129,7 @@ const works = {
           <div>
             <em>Mi ami</em>, Naples, 1996
             <br />
-            Photographie couleur
+            Photographie analogique
             <br />
             Tirage jet d’encre sur bâche Archiva
             <br />
@@ -143,7 +143,7 @@ const works = {
           <div>
             <em>Perrier</em>, Caluire, 1996
             <br />
-            Photographie couleur
+            Photographie analogique
             <br />
             Tirage jet d’encre sur bâche Archiva
             <br />
@@ -159,7 +159,7 @@ const works = {
           <div>
             <em>Vassarette</em>, Lyon, 1998
             <br />
-            Photographie couleur
+            Photographie analogique
             <br />
             Tirage jet d’encre sur bâche Archiva
             <br />
@@ -1878,7 +1878,7 @@ const works = {
           <div>
             Dahlias 115-752, 2016
             <br />
-            Photographie analogique
+            Photographie numérique
             <br />
             Tirage Lumière contrecollé sur alu Dibond
             <br />
@@ -1894,7 +1894,7 @@ const works = {
           <div>
             Jacinthes 117-275, 2016
             <br />
-            Photographie analogique
+            Photographie numérique
             <br />
             Tirage Lumière contrecollé sur alu Dibond
             <br />
@@ -1910,7 +1910,7 @@ const works = {
           <div>
             Tulipe 117-309, 2016
             <br />
-            Photographie analogique
+            Photographie numérique
             <br />
             Tirage Lumière contrecollé sur alu Dibond
             <br />

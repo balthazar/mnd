@@ -151,7 +151,7 @@ class Home extends Component {
       >
         <CategoryLink animate={animateHome} dir={dir} />
         <CategoryContent animate={animateHome}>
-          <img src={c.thumb} width={100} />
+          <img src={c.thumb} width={100} height={100} />
           <h2>{c.title}</h2>
           <em>{c.date}</em>
         </CategoryContent>
