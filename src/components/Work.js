@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import breakpoint from 'styled-components-breakpoint'
 
 import Header from 'components/Header'
+import Footer from 'components/Footer'
 
 import works from 'works'
 
@@ -120,6 +121,7 @@ class Work extends Component {
             </Images>
           </Main>
         </Content>
+        <Footer />
       </div>
     )
   }

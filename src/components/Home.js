@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
 
 import Header from 'components/Header'
+import Footer from 'components/Footer'
 
 import { disableAnimate } from 'reducers/ui'
 import { worksList } from 'works'
@@ -170,6 +171,7 @@ class Home extends Component {
           <Line innerRef={c => (this.line = c)} instant={animateHome ? 0 : 1} />
           {(!animateHome || showCategories) && worksList.map(this.renderCategory)}
         </Display>
+        <Footer />
       </Container>
     )
   }

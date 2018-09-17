@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 import Header from 'components/Header'
+import Footer from 'components/Footer'
 
 const boxSize = 200
 
@@ -126,14 +127,17 @@ class Texts extends Component {
         <Content>
           {list.map(({ info, url }) => {
             const [title, author] = info.split(' - ')
+            const __html = author.split(' / ').join('<span> / <br /></span>')
+
             return (
               <Text href={`/assets/texts/${url}`} target="_blank" key={url}>
                 <span>{title}</span>
-                <b>{author}</b>
+                <b dangerouslySetInnerHTML={{ __html }} />
               </Text>
             )
           })}
         </Content>
+        <Footer />
       </Container>
     )
   }
