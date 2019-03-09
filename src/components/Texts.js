@@ -3,21 +3,9 @@ import styled from 'styled-components'
 
 import Header from 'components/Header'
 import Footer from 'components/Footer'
+import { Container, Content } from 'styles/components'
 
 const boxSize = 200
-
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`
-
-const Content = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  margin: 150px 50px 50px 50px;
-`
 
 const Text = styled.a`
   width: ${boxSize}px;

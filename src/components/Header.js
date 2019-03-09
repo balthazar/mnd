@@ -39,6 +39,7 @@ class Header extends Component {
           <Link to="/">{'HOME'}</Link>
           <Link to="/bio">{'BIOGRAPHY'}</Link>
           <Link to="/texts">{'TEXTS'}</Link>
+          <Link to="/news">{'NEWS'}</Link>
           <a href="https://www.centrepompidou.fr/cpv/resource/cEnpL9/rnpdar" target="_blank">
             <img src="/assets/pompidou.ico" width={20} />
           </a>
