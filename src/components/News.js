@@ -27,6 +27,8 @@ class News extends Component {
           16 mars – 23 septembre 2019
           <br />
           <br />
+          <img src="/assets/Invit.MNDECORET-ROANNE.png" width={400} />
+          <br />
           <br />
           Expositions
           <br />
