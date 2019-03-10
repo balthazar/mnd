@@ -34,7 +34,7 @@ class News extends Component {
           <br />
           Photographie
           <br />
-          Esox-Lucius, la gare / le quai 294M9 71740 - Saint-Maurice -lès-Châteauneuf
+          Esox-Lucius, la gare / le quai 294M9 71740 - Saint-Maurice -lès-Châteauneuf
           <br />
           6 juillet – 8 septembre 2019
           <br />

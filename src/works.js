@@ -241,42 +241,38 @@ const works = {
     ),
     images: [
       {
-        url: '01-MOUCHOIRS-L-MMENSITE.jpg',
+        url: 'L1220858-RED.jpg',
         text: (
           <div>
-            <em>L’Immensité</em>, 1994
-            <br />
             Mouchoir d’homme, fil, épingles
             <br />
-            41 x 42 cm
+            47 x 48 cm
+            <br />
+            Rome, 1994 / 1995
           </div>
         ),
       },
       {
-        url: '02-MOUCHOIRS-DYPTIQUE.jpg',
+        url: 'L1220859-RED.jpg',
         text: (
           <div>
-            <em>Sans titre</em>, 1994
+            Mouchoir d’homme, fil, épingles
             <br />
-            Mouchoirs d’homme, fil, épingles
+            47 x 48 cm
             <br />
-            Dyptique
-            <br />
-            41 x 89 cm
+            Rome, 1994 / 1995
           </div>
         ),
       },
       {
-        url: '03-MOUCHOIRS-TRYPTIQUE-BRAILLE.jpg',
+        url: 'L1220863-RED.jpg',
         text: (
           <div>
-            <em>L’Éblouissement</em>, 1995
+            Mouchoir d’homme pur lin, fil, épingles
             <br />
-            Mouchoirs d’homme, fil, épingles
+            42 x 44 cm
             <br />
-            Tryptique
-            <br />
-            41 x 133 cm
+            Rome, 1995
           </div>
         ),
       },
@@ -415,6 +411,183 @@ const works = {
       },
     ],
   },
+  filigranes: {
+    title: 'Filigranes',
+    date: '1996 - 1997',
+    text: (
+      <div>
+        <h3>Bourse Villa Médicis hors les murs</h3>
+        <br />
+        […] Le filigrane est en quelque sorte une broderie en négatif enfermée dans la trame du
+        papier.
+        <br />
+        En outre, comme le mouchoir, la feuille blanche est un objet non dépourvu de désuétude ; on
+        songe à la fragilité du devenir du papier face à l’écran informatique.
+        <br />
+        <br />
+        Le filigrane est un signifiant presque invisible dont la force symbolique est néanmoins très
+        grande : emblème d’un sujet unique (possesseur ou producteur de papier), autorité d’un
+        pouvoir politique ou économique (billets de banque). Auparavant, le filigrane indiquait
+        encore l’origine géographique et le format de la feuille de papier.
+        <br />
+        Celle-ci, lettre, billet, ordonnance, est toujours une médiation vouée à un parcours dans
+        l’espace et dans le temps. Contrairement au mouchoir qui est un objet strictement privé, la
+        feuille quitte son utilisateur premier pour rejoindre d’autres personnes. Durant ce voyage,
+        elle connaît par conséquent un moment où son rôle et son sens se suspendent. Suspension
+        entre moi et l’autre, entre un point de départ et un point d’arrivée.
+        <br />
+        <br />
+        Mon projet consiste à reproduire en filigrane des figures de l’errance (par exemple le
+        vagabond), de la quête (le pèlerin, l’ermite), de l’exploration (cartes schématiques des
+        pérégrinations de voyageurs célèbres).
+        <br />
+        […] Une autre série reprendra des préceptes ou des devises qui imprimeront à l’intérieur du
+        papier des messages à la fois sages et stéréotypés, graves et rebattus.
+        <br />
+        <br />
+        Ainsi, au cœur d’une lettre vide, la lumière seule viendra-t-elle révéler les éléments d’un
+        corpus silencieux, anachronique mais emblématique de l’incertitude qui fonde toute
+        interrogation sur l’être au monde.
+      </div>
+    ),
+    textDesc: (
+      <div>
+        <b>Propos recueillis par Valérie Mavridorakis</b>
+        <br />
+        Rome, septembre 1995
+      </div>
+    ),
+    images: [
+      {
+        url: 'L1220808-RET-REC.jpg',
+        text: (
+          <div>
+            <em>C. Q. F. D.</em>
+            <br />
+            Papier filigrané, 1996-1997, 8 exemplaires
+            <br />
+            Papier pur coton à la forme à main, 32 x 39 cm
+            <br />
+            Papèterie Gennaro Amatruda, Amalfi, Italie
+            <br />
+            Bourse Villa Médicis hors les murs
+          </div>
+        ),
+      },
+      {
+        url: 'L1220817-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Nil omne</em>
+            <br />
+            Papier filigrané, 1996-1997, 8 exemplaires
+            <br />
+            Papier pur coton à la forme à main, 32 x 39 cm
+            <br />
+            Papèterie Gennaro Amatruda, Amalfi, Italie
+            <br />
+            Bourse Villa Médicis hors les murs
+          </div>
+        ),
+      },
+      {
+        url: 'L1220816-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Omnis mundi creatura…</em>
+            <br />
+            Papier filigrané, 1996-1997, 8 exemplaires
+            <br />
+            Papier pur coton à la forme à main, 32 x 39 cm
+            <br />
+            Papèterie Gennaro Amatruda, Amalfi, Italie
+            <br />
+            Bourse Villa Médicis hors les murs
+          </div>
+        ),
+      },
+      {
+        url: 'L1220818-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Vanitas vanitatum…</em>
+            <br />
+            Papier filigrané, 1996-1997, 8 exemplaires
+            <br />
+            Papier pur coton à la forme à main, 32 x 39 cm
+            <br />
+            Papèterie Gennaro Amatruda, Amalfi, Italie
+            <br />
+            Bourse Villa Médicis hors les murs
+          </div>
+        ),
+      },
+      {
+        url: 'L1220822-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Figure de l’Errance n° 1 / 10</em>
+            <br />
+            Papier filigrané, 1996-1997, 8 exemplaires
+            <br />
+            Papier pur coton à la forme à main, 32 x 39 cm
+            <br />
+            Papèterie Gennaro Amatruda, Amalfi, Italie
+            <br />
+            Bourse Villa Médicis hors les murs
+          </div>
+        ),
+      },
+      {
+        url: 'L1220845-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Figure de l’Errance n° 3 / 10</em>
+            <br />
+            Papier filigrané, 1996-1997, 8 exemplaires
+            <br />
+            Papier pur coton à la forme à main, 32 x 39 cm
+            <br />
+            Papèterie Gennaro Amatruda, Amalfi, Italie
+            <br />
+            Bourse Villa Médicis hors les murs
+          </div>
+        ),
+      },
+      {
+        url: 'L1220855-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Figure de l’Errance n° 8 / 10</em>
+            <br />
+            Papier filigrané, 1996-1997, 8 exemplaires
+            <br />
+            Papier pur coton à la forme à main, 32 x 39 cm
+            <br />
+            Papèterie Gennaro Amatruda, Amalfi, Italie
+            <br />
+            Bourse Villa Médicis hors les murs
+          </div>
+        ),
+      },
+      {
+        url: 'L1220856-RET-REC.jpg',
+        text: (
+          <div>
+            <em>Figure de l’Errance n° 9 / 10</em>
+            <br />
+            Papier filigrané, 1996-1997, 8 exemplaires
+            <br />
+            Papier pur coton à la forme à main, 32 x 39 cm
+            <br />
+            Papèterie Gennaro Amatruda, Amalfi, Italie
+            <br />
+            Bourse Villa Médicis hors les murs
+          </div>
+        ),
+      },
+    ],
+  },
   'portraits-dartistes': {
     title: "Portraits d'Artistes",
     date: '1997 / ...',
@@ -472,6 +645,122 @@ const works = {
             Poudre graphite sur mur
             <br />
             41 x 33 cm
+          </div>
+        ),
+      },
+    ],
+  },
+  immanence: {
+    title: 'Immanence',
+    date: '1999',
+    text: (
+      <div>
+        Valorisation des métiers d’art
+        <br />
+        Un projet de Yves Sabourin, inspecteur de la création,
+        <br />
+        Délégation aux Arts Plastiques - Ministère de la Culture
+        <br />
+        <br />
+        C'est dans le cadre du projet "Médium textile" initié par Yves Sabourin en 1995 pour le
+        compte de la Délégation aux Arts Plastiques - Ministère de la Culture, que l'œuvre Immanence
+        a été créée ; dialogue entre le projet de l’artiste et l'interprétation d'un savoir-faire
+        textile par un spécialiste.
+        <br />
+        Le choix de cette rencontre entre l'art contemporain et cette technique a permis à
+        Marie-Noëlle Décoret de travailler avec la Passementerie Declerc à Paris.
+        <br />
+        "Médium textile" a permis à des artistes plasticiens comme Annette Messager, Jean-Michel
+        Othoniel ou Johan Creten d'élaborer des œuvres en broderie, dentelle, passementerie ou
+        feutre.
+        <br />
+        Les expositions Métissages qui regroupaient ces différents projets ont parcouru le monde en
+        vingt-cinq étapes.
+        <br />
+        <br />
+        <em>
+          « Utiliser les entrelacs de la giroline.
+          <br />
+          Composer en lettres cursives avec des fils d’or entrecroisés le mot Immanence.
+          <br />
+          Fermer en une fine couronne.
+          <br />
+          La déposer sur un coussin de velours pourpre aux quatre coins terminés de pampilles
+          dorées ».
+        </em>
+        <br />
+        <br />
+        Technique
+        <br />
+        Or, velours, fil de fer, fil doré, passementerie, 1999
+        <br />
+        CNAP, Centre national des arts plastiques, Paris
+        <br />
+        Passementière: <b>Marisa Lopez</b>
+        <br />
+        Atelier: Passementerie Declerc, Paris
+        <br />
+        <br />
+        Remerciements
+        <br />
+        Aux photographes pour le CNAP:
+        <br />
+        Yves Chenot, Florian Kleinefenn et Bruno Scotti
+      </div>
+    ),
+
+    images: [
+      {
+        url: 'Decoret1999ImmanenceOrMUCEM2-RET-RED.jpg',
+        text: (
+          <div>
+            Exposition L’Or, Mucem, Marseille, été 2018
+            <br />
+            Photographie Yves Sabourin
+          </div>
+        ),
+      },
+      {
+        url: 'Immanence_photo Kleinefenn-RED.jpg',
+        text: (
+          <div>
+            Or, velours, fil de fer, fil doré, passementerie, 1999
+            <br />
+            CNAP, Centre national des arts plastiques, Paris
+            <br />
+            Photographie pour le CNAP©Florian Kleinefenn, avec son aimable autorisation
+          </div>
+        ),
+      },
+      {
+        url: 'Immanence_photo Bruno Scotti_détail-RED.jpg',
+        text: (
+          <div>
+            Détail <em>Immanence</em>, Or, fil de fer, fil doré, passementerie, 1999
+            <br />
+            CNAP, Centre national des arts plastiques, Paris
+            <br />
+            Photographie pour le CNAP©Bruno Scotti
+          </div>
+        ),
+      },
+      {
+        url: 'Immanence_photo Yves Chenot-RED.jpg',
+        text: (
+          <div>
+            Or, velours, fil de fer, fil doré, passementerie, 1999
+            <br />
+            CNAP, Centre national des arts plastiques, Paris
+            <br />
+            Photographie pour le CNAP©Yves Chenot, avec son aimable autorisation
+          </div>
+        ),
+      },
+      {
+        url: 'Decoret1999Immanence0Etude2-RED.jpg',
+        text: (
+          <div>
+            Étude 2, projet <em>Immanence</em>, CNAP, 1999
           </div>
         ),
       },
@@ -1980,7 +2269,54 @@ const works = {
   'portraits-sanguins': {
     title: 'Portraits Sanguins',
     date: '2016 / ...',
-    text: null,
+    text: (
+      <div>
+        <h3>Les liens du sang</h3>
+        <br />
+        Qu’elle brode des mots sur des mouchoirs, blanc sur blanc, parfois en braille, qu’elle
+        photographie des lieux vides mais non sans âme, des intérieurs de tunnels exigeant de longs
+        temps de pose pour y capter la lumière, des chambres d’isolement d’hôpital psychiatrique
+        baignées du jour ou des intérieurs de couvent, Marie Noëlle Décoret questionne le temps et
+        la perception.
+        <br />
+        Ses Peintures d’aveugle, reprise au trait, à la peinture blanche sur papier blanc et sans
+        repentir possible, de grands tableaux religieux, iconographies de la vision et de
+        l’aveuglement relisent l’histoire de l’art.
+        <br />
+        Ses portraits photographiques et surtout ceux pris à travers des lentilles optiques
+        identiques au degré de correction des verres de lunettes des modèles disent encore ce qu’est
+        le voir.
+        <br />
+        <br />
+        Les Portraits sanguins s’inscrivent en droit fil de son travail.
+        <br />
+        Plein cadre, en gros plan, au format photographique 24x18 cm, la plupart peints d’après
+        photos, ces visages sont ceux d’artistes. Ces femmes et ces hommes dont parfois les traits
+        s’effacent alors que leur œuvre reste vivante même après leur disparition, constituent une
+        série. Ses dessins mettent un visage sur des grands noms de l’histoire de l’art, noms qui
+        ont changé la vision du monde.
+        <br />
+        Portraits choisis qui composent un panthéon personnel, ils sont représentés paupières
+        baissées, les yeux clos comme on ferme ceux des disparus, basculés par le truchement de la
+        peinture vers leur paysage intérieur.
+        <br />
+        <br />
+        Tous sont peints avec son sang, sang de l’artiste allongé d’eau, aquarellé.
+        <br />
+        Loin des gravures coloriées et des décors d’éventail cette matière, fluide vital fait
+        filiation. Couleur instable, sorte de sépia organique sans pour autant redonner vie, donne
+        corps. Marie Noëlle Décoret renoue avec les galeries de portraits d’artistes célèbres. Dans
+        une forme de rituel elle rend leurs traits aux artistes, révèle les visages de celles et
+        ceux qu’elle révère.
+      </div>
+    ),
+    textDesc: (
+      <div>
+        Claude-Hubert Tatot
+        <br />
+        Genève, mai 2018
+      </div>
+    ),
     images: [
       {
         url: 'BOURGEOIS-LOUISE-2016-24x18.jpg',
