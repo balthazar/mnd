@@ -772,28 +772,26 @@ const works = {
     text: (
       <div>
         <em>
-          « Comme si d’un enchanteur ou d’un machiniste de théâtre, le premier coup de sifflet de la
+          Comme si d’un enchanteur ou d’un machiniste de théâtre, le premier coup de sifflet de la
           première locomotive a donné le signal d’éveil, d’envolement à toute chose. » Nadar, Quand
           j’étais photographe, Paris (1900) p. 281
         </em>
         <br />
         <br />
         La coïncidence entre le développement du chemin de fer et l’avènement de la photographie
-        constitue le point de départ du travail de Marie-Noëlle Décoret.
+        constitue le point de départ de mon travail.
         <br />
         <br />
-        Photographe, elle s’immerge avec sa chambre noire dans la profondeur des tunnels
+        Photographe, je m’immerge en aveugle avec ma chambre noire dans la profondeur des tunnels
         ferroviaires, lieux de passage et de transit, pour capter le passage de l’ombre à la
-        lumière, en saisir l’inscription.
+        lumière, en saisir l’inscription. Autant point de vue que ligne de mire, la lumière
+        éblouissante ou discrète qui révèle l’environnement doit être saisie sans en ruiner
+        l’équilibre.
         <br />
-        Point de vue et ligne de mire, la lumière éblouissante ou discrète qui éclaire son
-        l’objectif doit révéler l’environnement sans le ruiner.
         <br />
-        <br />
-        Les images de Marie-Noëlle Décoret se veulent le prolongement de l’outil photographique,
-        elles sont la traduction de la chambre qui les produit. Elles saisissent l’obscurité,
-        s’impressionnent de l’ouverture. En transit entre deux mondes, elles se font l’écho de leur
-        révélation.
+        Mes images sont la traduction de la chambre qui les produit. Elles saisissent l’obscurité,
+        s’impressionnent de l’ouverture et deviennent la concrétisation du processus photographique.
+        En transit entre deux mondes, elles se font l’écho de leur révélation.
         <br />
         <br />
         <b>
@@ -802,6 +800,11 @@ const works = {
           Trois épreuves figurent dans la collection du
           <br />
           Centre Pompidou, Musée National d’Art Moderne – MNAM
+          <br />
+          Deux autres épreuves figurent dans la collection du Frac Franche-Comté
+          <br />
+          <br />
+          Tirages gélatino-argentiques de Dominique Sudre
         </b>
       </div>
     ),
