@@ -36,7 +36,9 @@ class News extends Component {
           <br />
           Photographie
           <br />
-          Esox-Lucius, la gare / le quai 294M9 71740 - Saint-Maurice -lès-Châteauneuf
+          Esox-Lucius, la gare / le quai 294M9 71740
+          <br />
+          Saint-Maurice -lès-Châteauneuf
           <br />
           6 juillet – 8 septembre 2019
           <br />
@@ -63,17 +65,6 @@ class News extends Component {
           >
             Site du Musée
           </a>
-          <br />
-          <br />
-          <em>Suites et portraits</em>
-          <br />
-          Dessin et photographie
-          <br />
-          Musée Joseph Déchelette
-          <br />
-          42300 - Roanne
-          <br />
-          11 octobre 2019 – janvier 2020
         </Content>
 
         <Footer />
