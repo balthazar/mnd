@@ -14,23 +14,36 @@ class News extends Component {
       <div>
         <Header />
         <Content>
-          Participation
+          Expositions
           <br />
-          <em>Faces, masques et portraits</em>
           <br />
-          <em>L’atelier Picasso</em>
+          <img src="/assets/cent-visages-1.png" width={400} />
+          <br />
+          <img src="/assets/cent-visages-2.png" width={400} />
+          <br />
+          <br />
+          <em>Cent visages</em>
+          <br />
+          Dessin et photographie
           <br />
           Musée Joseph Déchelette
           <br />
           42300 - Roanne
           <br />
-          16 mars – 23 septembre 2019
+          9 novembre 2019 – 11 février 2020
           <br />
           <br />
-          <img src="/assets/Invit.MNDECORET-ROANNE.png" width={400} />
+          <a
+            href="http://www.museederoanne.fr/expositions/expositions-a-venir/marie-noelle-decoret-cent-visages-2562.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Site du Musée
+          </a>
           <br />
           <br />
-          Expositions
+          <br />
+          <br />
           <br />
           <em>Camera obscura</em>
           <br />
@@ -46,25 +59,22 @@ class News extends Component {
           <img src="/assets/carton-obscura.png" width={600} />
           <br />
           <br />
-          Exposition monographique
           <br />
-          <em>Cent visages</em>
           <br />
-          Dessin et photographie
+          Participation
+          <br />
+          <em>Faces, masques et portraits</em>
+          <br />
+          <em>L’atelier Picasso</em>
           <br />
           Musée Joseph Déchelette
           <br />
           42300 - Roanne
           <br />
-          9 novembre 2019 – 11 février 2020
+          16 mars – 23 septembre 2019
           <br />
           <br />
-          <a
-            href="http://www.museederoanne.fr/expositions/exposition-a-venir-2091.html"
-            target="_blank"
-          >
-            Site du Musée
-          </a>
+          <img src="/assets/Invit.MNDECORET-ROANNE.png" width={400} />
         </Content>
 
         <Footer />
