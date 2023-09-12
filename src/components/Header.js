@@ -47,13 +47,13 @@ class Header extends Component {
       <Container>
         <h1>{'Marie-Noëlle Décoret'}</h1>
         <div>
-          <Link to="/">{'HOME'}</Link>
-          <Link to="/bio">{'BIOGRAPHY'}</Link>
-          <Link to="/texts">{'TEXTS'}</Link>
+          <Link to="/">{'ACCUEIL'}</Link>
+          <Link to="/bio">{'BIOGRAPHIE'}</Link>
+          <Link to="/texts">{'TEXTES'}</Link>
           <Link to="/news" red>
-            {'NEWS'}
+            {'ACTUALITÉS'}
           </Link>
-          <a href="https://www.centrepompidou.fr/cpv/resource/cEnpL9/rnpdar" target="_blank">
+          <a href="https://www.centrepompidou.fr/fr/ressources/personne/cEnpL9" target="_blank">
             <img src="/assets/pompidou.ico" width={20} />
           </a>
         </div>

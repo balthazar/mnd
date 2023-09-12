@@ -1952,7 +1952,7 @@ const works = {
             <br />
             Photographie analogique
             <br />
-            Tirage Lumière contrecollé sur alu Dibond
+            Tirage Fine art contrecollé sur alu Dibond
             <br />
             3 exemplaires
             <br />
@@ -1970,7 +1970,7 @@ const works = {
             <br />
             Photographie analogique
             <br />
-            Tirage Lumière contrecollé sur alu Dibond
+            Tirage Fine art contrecollé sur alu Dibond
             <br />
             3 exemplaires
             <br />
@@ -1988,7 +1988,7 @@ const works = {
             <br />
             Photographie analogique
             <br />
-            Tirage Lumière contrecollé sur alu Dibond
+            Tirage Fine art contrecollé sur alu Dibond
             <br />
             3 exemplaires
             <br />
@@ -2024,7 +2024,7 @@ const works = {
             <br />
             Photographie analogique
             <br />
-            Tirage Lumière contrecollé sur alu Dibond
+            Tirage Fine art contrecollé sur alu Dibond
             <br />
             3 exemplaires
             <br />
@@ -2060,7 +2060,7 @@ const works = {
             <br />
             Photographie analogique
             <br />
-            Tirage Lumière contrecollé sur alu Dibond
+            Tirage Fine art contrecollé sur alu Dibond
             <br />
             3 exemplaires
             <br />

@@ -9,6 +9,11 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  .ref {
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
 `
 
 const Content = styled.div`
@@ -41,55 +46,67 @@ const texts = {
     <div>
       En 1994, Marie-Noëlle DÉCORET rompt avec son travail de peintre pour entreprendre, à Rome, une
       réflexion sur le mouchoir - l’objet - regardé comme carré blanc. Elle expose ce travail à la
-      Chartreuse de Sainte-Croix en Jarez avec le Frac Rhône-Alpes¹ ainsi qu’à la galerie Georges
-      Verney-Carron à Villeurbanne². Parallèlement à ce travail, elle compose un inventaire
-      photographique d’affiches publicitaires rencontrées depuis l’Italie, sur l’image de la femme
-      en milieu urbain. Elle débute la réalisation de ses <em>Peintures d’aveugle</em> en 1995. En
-      1996, elle obtient une bourse Villa Medicis hors les murs pour un projet d’œuvres en filigrane
-      qu’elle réalise au sud de Naples, à Amalfi, jusqu’en 1997. Ces quatre déclinaisons sont
-      présentées à Genève en 1998 au Showroom Manzoni³.
+      Chartreuse de Sainte-Croix en Jarez avec le Frac Rhône-Alpes<span className="ref">1</span>{' '}
+      ainsi qu’à la galerie Georges Verney-Carron à Villeurbanne<span className="ref">2</span>.
+      Parallèlement à ce travail, elle compose un inventaire photographique d’affiches publicitaires
+      rencontrées depuis l’Italie, sur l’image de la femme en milieu urbain. Elle débute la
+      réalisation de ses <em>Peintures d’aveugle</em> en 1995. En 1996, elle obtient une bourse
+      Villa Medicis hors les murs pour un projet d’œuvres en filigrane qu’elle réalise au sud de
+      Naples, à Amalfi, jusqu’en 1997. Ces quatre déclinaisons sont présentées à Genève en 1998 au
+      Showroom Manzoni<span className="ref">3</span>.
       <br />
       <br />
       En 1999, la Délégation aux Arts Plastiques lui commande une œuvre en passementerie dans le
-      cadre du projet Métissages⁴, exposé en Europe, Asie, Amérique. La même année, elle reçoit une
-      aide à la production de la Caisse des dépôts et consignations pour ses photographies de la
-      série Tunnels dont trois épreuves se trouvent dans la collection du Centre Pompidou⁵. En 2000,
-      elle obtient une aide individuelle à la création pour la réalisation d’une installation
-      sonore⁶. De 2002 à 2004, elle conçoit et réalise une œuvre monumentale pour le Pôle Optique
-      Rhône-Alpes à Saint-Étienne, Histoire de voir, <em>Portraits réfléchis</em>⁷, alors qu’en
-      2003, le Centre d’art de la Villa du Parc à Annemasse présente en duo avec Susanna Fritscher
-      un ensemble de ses réalisations dont l’installation Elle… accompagnée de son édition⁸. Entre
-      2003 et 2004, elle photographie les épaves mises au jour lors de la construction d’un parc
-      souterrain⁹. L’année 2005 voit ses images de la série <em>Portraits réfléchis</em> au musée de
-      beaux-arts de Shanghai¹⁰, ainsi que sa participation en résonance avec la biennale d’art
-      contemporain de Lyon, <em>Expérience de la durée</em>, à l’Institution des Chartreux¹¹.
+      cadre du projet Métissages<span className="ref">4</span>, exposé en Europe, Asie, Amérique. La
+      même année, elle reçoit une aide à la production de la Caisse des dépôts et consignations pour
+      ses photographies de la série Tunnels dont trois épreuves se trouvent dans la collection du
+      Centre Pompidou<span className="ref">5</span>. En 2000, elle obtient une aide individuelle à
+      la création pour la réalisation d’une installation sonore<span className="ref">6</span>. De
+      2002 à 2004, elle conçoit et réalise une œuvre monumentale pour le Pôle Optique Rhône-Alpes à
+      Saint-Étienne, Histoire de voir, <em>Portraits réfléchis</em>
+      <span className="ref">7</span>, alors qu’en 2003, le Centre d’art de la Villa du Parc à
+      Annemasse présente en duo avec Susanna Fritscher un ensemble de ses réalisations dont
+      l’installation Elle… accompagnée de son édition<span className="ref">8</span>. Entre 2003 et
+      2004, elle photographie les épaves mises au jour lors de la construction d’un parc souterrain<span className="ref">
+        9
+      </span>. L’année 2005 voit ses images de la série <em>Portraits réfléchis</em> au musée de
+      beaux-arts de Shanghai<span className="ref">10</span>, ainsi que sa participation en résonance
+      avec la biennale d’art contemporain de Lyon, <em>Expérience de la durée</em>, à l’Institution
+      des Chartreux<span className="ref">11</span>.
       <br />
       <br />
       En 2002 elle débute un travail sur la chambre d’isolement vidée de présence en hôpital
       psychiatrique. En 2006, elle réside à l’Institut culturel français de Dakar où elle
-      photographie des enfants déguisés pour Mardi gras¹² tout en menant en France au couvent de La
-      Tourette édifié par Le Corbusier, quatre séries de prises de vue sur les cellules des
-      dominicains aux solstices et aux équinoxes. Cette intervention fait l’objet d’une exposition
-      dans le couvent en réfection, en résonance avec la biennale d’art contemporain de Lyon, et
-      d’une édition¹³ à l’automne 2007.
+      photographie des enfants déguisés pour Mardi gras<span className="ref">12</span> tout en
+      menant en France au couvent de La Tourette édifié par Le Corbusier, quatre séries de prises de
+      vue sur les cellules des dominicains aux solstices et aux équinoxes. Cette intervention fait
+      l’objet d’une exposition dans le couvent en réfection, en résonance avec la biennale d’art
+      contemporain de Lyon, et d’une édition<span className="ref">13</span> à l’automne 2007.
       <br />
       <br />
       L’été 2009, l’artiste participe à la biennale de la céramique de Chateauroux comme à la
-      rétrospective du Frac Franche-Comté à la Saline royale d’Arc-et-Senans¹⁴. Elle intervient
-      jusqu’au printemps 2010 au musée textile de Bourgoin-Jallieu dans le cadre de Culture et
-      Hôpital alors qu’une de ses photos de la série <em>Tunnels</em> est présentée à l’exposition{' '}
-      <em>elles</em>¹⁵ au Centre Georges Pompidou. L’artiste reçoit une commande de la Ville de
-      Vénissieux pour le Centre pédagogique Michel Delay. À l’automne 2010, M.-N. D. est présente
-      avec la galerie Artaé à Show Off foire du solo show à Paris pendant la Fiac.
+      rétrospective du Frac Franche-Comté à la Saline royale d’Arc-et-Senans<span className="ref">
+        14
+      </span>. Elle intervient jusqu’au printemps 2010 au musée textile de Bourgoin-Jallieu dans le
+      cadre de Culture et Hôpital alors qu’une de ses photos de la série <em>Tunnels</em> est
+      présentée à l’exposition <em>elles</em>
+      <span className="ref">15</span> au Centre Georges Pompidou. L’artiste reçoit une commande de
+      la Ville de Vénissieux pour le Centre pédagogique Michel Delay. À l’automne 2010, M.-N. D. est
+      présente avec la galerie Artaé à Show Off foire du solo show à Paris pendant la Fiac.
       <br />
       <br />
-      En 2012, l’artiste expose au Passage de Retz à Paris et au musée d‘Angers¹⁶ dans le cadre d’un
-      hommage à Thomas Gleb. Cette même année à l’automne, le CHU Le Vinatier présente ses
-      photographies <em>Chambres d’isolement</em>¹⁷.
+      En 2012, l’artiste expose au Passage de Retz à Paris et au musée d‘Angers<span className="ref">
+        16
+      </span>{' '}
+      dans le cadre d’un hommage à Thomas Gleb. Cette même année à l’automne, le CHU Le Vinatier
+      présente ses photographies <em>Chambres d’isolement</em>
+      <span className="ref">17</span>.
       <br />
       <br />
       En 2014 elle débute les <em>Portraits fanés</em> et les <em>Portraits sanguins</em> en 2016.
-      Ces deux séries sont présentées à l’automne de cette même année à la MAC de Pérouges¹⁸.
+      Ces deux séries sont présentées à l’automne de cette même année à la MAC de Pérouges<span className="ref">
+        18
+      </span>.
       <br />
       Marie-Noëlle DÉCORET intervient ponctuellement en milieu scolaire. Ses œuvres figurent dans
       les collections du FNAC, Fonds National d’Art Contemporain, du Centre Pompidou, MNAM, Musée
