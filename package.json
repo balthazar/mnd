@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node --openssl-legacy-provider -r babel-register -r babel-polyfill src/server",
+    "start": "node -r babel-register -r babel-polyfill src/server",
     "lint": "eslint src webpack",
     "prettier": "prettier --write \"{src,webpack}/**/*.?(js|json)\"",
     "build": "rm -rf dist && NODE_ENV=production webpack --progress --hide-modules --config webpack/build.babel.js",

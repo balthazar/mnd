@@ -34,10 +34,10 @@ const Link = styled(BaseLink)`
   text-decoration: none !important;
   padding-bottom: 5px;
   border-bottom: 2px solid transparent;
-  ${p => (p.red ? 'color: red;' : '')};
+  ${(p) => (p.red ? 'color: red;' : '')};
 
   &:hover {
-    border-bottom-color: ${p => (p.red ? 'red' : '#232323')};
+    border-bottom-color: ${(p) => (p.red ? 'red' : '#232323')};
   }
 `
 
@@ -55,6 +55,13 @@ class Header extends Component {
           </Link>
           <a href="https://www.centrepompidou.fr/fr/ressources/personne/cEnpL9" target="_blank">
             <img src="/assets/pompidou.ico" width={20} />
+          </a>
+
+          <a
+            href="https://www.couventdelatourette.fr/2007-marie-noelle-decoret.html"
+            target="_blank"
+          >
+            <img src="/assets/tourette.png" width={18} />
           </a>
         </div>
       </Container>
