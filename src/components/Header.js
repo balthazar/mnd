@@ -51,7 +51,7 @@ class Header extends Component {
           <Link to="/bio">{'BIOGRAPHIE'}</Link>
           <Link to="/texts">{'TEXTES'}</Link>
           <Link to="/news" red>
-            {'ACTUALITÉS'}
+            {'ACTUALITES'}
           </Link>
           <a href="https://www.centrepompidou.fr/fr/ressources/personne/cEnpL9" target="_blank">
             <img src="/assets/pompidou.ico" width={20} />
