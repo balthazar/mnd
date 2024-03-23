@@ -17,6 +17,28 @@ class News extends Component {
           Expositions
           <br />
           <br />
+          <img src="/assets/DECORET-SAINT-SEVERIN.png" width={800} />
+          <br />
+          <br />
+          <em>
+            La lumière luit dans les ténèbres et les ténèbres ne l’ont pas saisie – Jean (1,5)
+          </em>
+          <br />
+          Photographie
+          <br />
+          <a href="https://artculturefoi.paris/galerie-saint-severin/" target="_blank">
+            Galerie Saint-Séverin
+          </a>
+          <br />
+          4, rue des Prêtres Saint-Séverin
+          <br />
+          75005 - Paris
+          <br />
+          28 mars – 26 mai 2024
+          <br />
+          <br />
+          <br />
+          <br />
           <img src="/assets/cent-visages-1.png" width={400} />
           <br />
           <img src="/assets/cent-visages-2.png" width={400} />
