@@ -56,7 +56,7 @@ class News extends Component {
           <br />
           <br />
           <a
-            href="http://www.museederoanne.fr/expositions/expositions-a-venir/marie-noelle-decoret-cent-visages-2562.html"
+            href="https://www.museederoanne.fr/expositions/expositions-passees/marie-noelle-decoret-cent-visages-2562.html"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -65,6 +65,9 @@ class News extends Component {
           <br />
           <br />
           <br />
+          <br />
+          <br />
+          <img src="/assets/carton-obscura.png" width={600} />
           <br />
           <br />
           <em>Camera obscura</em>
@@ -78,9 +81,10 @@ class News extends Component {
           6 juillet – 8 septembre 2019
           <br />
           <br />
-          <img src="/assets/carton-obscura.png" width={600} />
           <br />
           <br />
+          <br />
+          <img src="/assets/Invit.MNDECORET-ROANNE.png" width={400} />
           <br />
           <br />
           Participation
@@ -96,7 +100,6 @@ class News extends Component {
           16 mars – 23 septembre 2019
           <br />
           <br />
-          <img src="/assets/Invit.MNDECORET-ROANNE.png" width={400} />
         </Content>
 
         <Footer />
