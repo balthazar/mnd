@@ -36,6 +36,9 @@ class News extends Component {
           <br />
           28 mars – 26 mai 2024
           <br />
+          Frère Marc Chauveau, commissaire
+          <br />
+          <br />
           <br />
           <br />
           <br />
