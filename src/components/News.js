@@ -17,6 +17,23 @@ class News extends Component {
           Expositions
           <br />
           <br />
+          <img src="/assets/VISUEL-FLEURY-LA-MONTAGNE.png" width={500} />
+          <br />
+          <br />
+          <em>Peintures</em>
+          <br />
+          Le Pavillon
+          <br />
+          Bibliothèque de Fleury-la-Montagne - 71340
+          <br />
+          6 juillet – 28 septembre 2024
+          <br />
+          Françoise Le Roux, commissaire
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <img src="/assets/DECORET-SAINT-SEVERIN.png" width={800} />
           <br />
           <br />
@@ -26,7 +43,10 @@ class News extends Component {
           <br />
           Photographie
           <br />
-          <a href="https://artculturefoi.paris/galerie-saint-severin/" target="_blank">
+          <a
+            href="https://artculturefoi.paris/evenement/marie-noelle-decoret-la-lumiere-luit-dans-les-tenebres-et-les-tenebres-ne-lont-pas-saisie-jean-15/"
+            target="_blank"
+          >
             Galerie Saint-Séverin
           </a>
           <br />
