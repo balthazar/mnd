@@ -9,6 +9,7 @@ COPY src/ ./src/
 COPY webpack/ ./webpack/
 COPY .babelrc ./
 
+ENV NODE_OPTIONS=--openssl-legacy-provider
 RUN npm run build
 
 # ---
