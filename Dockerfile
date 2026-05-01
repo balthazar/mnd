@@ -2,8 +2,8 @@ FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-COPY package.json yarn.lock ./
-RUN yarn install --frozen-lockfile
+COPY package.json package-lock.json ./
+RUN npm ci
 
 COPY src/ ./src/
 COPY webpack/ ./webpack/
@@ -17,9 +17,9 @@ FROM node:20-alpine AS runner
 
 WORKDIR /app
 
-COPY package.json yarn.lock ./
+COPY package.json package-lock.json ./
 ENV NODE_ENV=production
-RUN yarn install --frozen-lockfile
+RUN npm ci
 
 COPY --from=builder /app/dist/ ./dist/
 COPY src/ ./src/
