@@ -19,7 +19,6 @@ FROM node:20-alpine AS runner
 WORKDIR /app
 
 COPY package.json package-lock.json ./
-ENV NODE_ENV=production
 RUN npm ci
 
 COPY --from=builder /app/dist/ ./dist/
@@ -28,6 +27,8 @@ COPY webpack/ ./webpack/
 COPY .babelrc ./
 
 EXPOSE 3000
+
+ENV NODE_ENV=production
 
 RUN addgroup -S app && adduser -S app -G app
 USER app
