@@ -6,4 +6,4 @@ const Container = styled.div`
   width: 100%;
 `
 
-export default () => <Container>marienoelledecoret [at] yahoo.fr</Container>
+export default () => <Container>contact [at] marienoelledecoret.com</Container>
