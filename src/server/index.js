@@ -5,7 +5,7 @@ import path from 'path'
 import render from 'server/render'
 import * as globals from 'globals'
 
-Object.keys(globals).forEach(key => (global[key] = globals[key]))
+Object.keys(globals).forEach((key) => (global[key] = globals[key]))
 
 const ASSETS_FOLDER = path.join(__dirname, '../assets')
 const DIST_FOLDER = path.join(__dirname, '../../dist')
@@ -27,6 +27,6 @@ if (__PROD__) {
 server.use('/assets', express.static(ASSETS_FOLDER))
 server.use(render(stats))
 
-server.listen(port, 'localhost', () => {
-  console.log(`[server] http://localhost:${port} - ${__ENV__}`) // eslint-disable-line no-console
+server.listen(port, () => {
+  console.log(`[server] Running on :${port} - ${__ENV__}`) // eslint-disable-line no-console
 })
